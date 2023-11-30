@@ -17,9 +17,11 @@ body {
 
 .bg-main {
     background-color: var(--main-color);
+    color: #fff;
 }
 .bg-dark {
     background-color: var(--dark-color);
+    color: #fff
 }
 .bg-light-grey {
     background-color: var(--light-grey-color);
