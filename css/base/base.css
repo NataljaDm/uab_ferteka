@@ -26,3 +26,48 @@ body {
 .bg-light-grey {
     background-color: var(--light-grey-color);
 }
+
+.section-title {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    color: var(--dark-color);
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--dark-color);
+}
+.section-title.capitalize {
+    text-transform: capitalize;
+}
+.section-title.left {
+    text-align: left;
+}
+.section-title.left::after {
+    left: 0;
+    transform: translate(0);
+}
+.section-title.right {
+    text-align: left;
+}
+.section-title.right::after {
+    right: 0;
+    left: auto;
+    transform: translate(0);
+}
+.section-title >span {
+    color: var(--main-color);
+}
