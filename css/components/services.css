@@ -1,0 +1,9 @@
+.services {
+
+}
+.services > .service {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px #0002;
+}

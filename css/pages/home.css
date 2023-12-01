@@ -3,8 +3,10 @@
 @import '../base/layout.css';
 
 /* vendors */
+@import '../vendor/et-line.css';
 
 /* components */
+@import '../components/services.css';
 
 /* CUSTOM CSS */
 
