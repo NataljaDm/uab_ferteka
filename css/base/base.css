@@ -27,6 +27,8 @@ body {
     background-color: var(--light-grey-color);
 }
 
+
+
 .section-title {
     display: inline-block;
     width: 100%;
@@ -71,3 +73,4 @@ body {
 .section-title >span {
     color: var(--main-color);
 }
+

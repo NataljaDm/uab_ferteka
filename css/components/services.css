@@ -12,6 +12,11 @@
     background-color: #fff;
     box-shadow: 0 4px 8px #0002;
 }
+
+.services > .service > .service-foto {
+    font-size: 10px;
+}
+
 .services > .service > i {
 color: var(--main-color);
 font-size: 60px;
