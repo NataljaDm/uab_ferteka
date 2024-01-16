@@ -29,6 +29,14 @@
 /* FREELANCE: start */
 /* FREELANCE: end */
 
+/* PAGES: start */
+@import '../../pages/data-centres/css/data-centres.css';
+@import '../../pages/building/css/building.css';
+
+
+
+/* PAGES: end */
+
 /* PORTFOLIO: start */
 /* PORTFOLIO: end */
 
