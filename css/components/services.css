@@ -18,9 +18,15 @@
 }
 
 .services > .service > i {
-color: var(--main-color);
+color: var(--icon-color);
 font-size: 60px;
 }
+
+.service-foto {
+    color: var(--icon-color);
+    font-size: 60px;
+    }
+
 .services > .service > .service-title {
     font-weight: bold;
     font-size: 20px;
