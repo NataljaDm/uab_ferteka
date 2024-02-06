@@ -1,8 +1,8 @@
 :root {
-  --main-color: #b1d3e7d8;
-  --dark-color: #111;
-  --light-grey-color: #f3f3f3;
-  --icon-color: #686868;
+    --main-color: #b1d3e7d8;
+    --dark-color: #111;
+    --light-grey-color: #f3f3f3;
+    --icon-color: #686868;
 }
 
 body,
@@ -41,7 +41,9 @@ body {
 }
 
 .about-text {
-font-size: larger;
+    font-weight: bold;
+    font-size: larger;
+    color: #000000;
 }
 
 .section-title {
@@ -92,7 +94,6 @@ font-size: larger;
     transform: translate(0);
 }
 
-.section-title >span {
+.section-title>span {
     color: var(--main-color);
 }
-
