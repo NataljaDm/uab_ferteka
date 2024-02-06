@@ -1,0 +1,16 @@
+.data {
+    background-image: url(../../img/data-background.jpg);
+    background-position: center;
+    background-size: contain;
+    opacity: 1.5;
+}
+
+.data-about{
+    font-size: 300%;
+    
+}
+
+.data-text {
+font-size: medium;
+color: var(--light-grey-color);
+}
