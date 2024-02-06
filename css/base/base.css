@@ -31,20 +31,33 @@ body {
 }
 
 .about {
-    background-image: url('../../img/data.png');
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    position: relative;
+    background: ;
+    overflow: hidden;
 }
 
 .about-text {
-    font-weight: bold;
     font-size: larger;
     color: #000000;
+    position: relative;
+    z-index: 2;
 }
+
+.about::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background-image: url('../../img/data.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+
 
 .section-title {
     display: inline-block;
