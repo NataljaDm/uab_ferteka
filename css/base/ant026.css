@@ -70,7 +70,7 @@ header.ant026_header-main-header {
 }
 
 .ant026_header-hvr-bounce-to-right::before {
-    background: #4daefe;
+    background: linear-gradient(to top, var(--main-color), #7ba2eb);
 }
 
 .ant026_header-hvr-bounce-to-right:active:before,
@@ -83,7 +83,7 @@ header.ant026_header-main-header {
 }
 
 .ant026_header-studio_header_area {
-    background: #1089ff;
+    background: linear-gradient(to top, var(--main-color), #7ba2eb);
 }
 
 .ant026_header-menu_right_icon {
@@ -155,7 +155,7 @@ header.ant026_header-main-header {
 }
 
 .ant026_header-menu_right_icon ul a span {
-    background: #4daefe;
+    background: linear-gradient(to top, var(--main-color), #7ba2eb);
 }
 
 .ant026_header-menu_right_icon .ant026_header-common_btn {
@@ -195,9 +195,9 @@ header.ant026_header-main-header {
     }
 }
 
-/* .ant026_header-studio_header_area .ant026_header-studio_logo {
+.ant026_header-studio_header_area .ant026_header-studio_logo {
     margin-top: 28px;
-} */
+} 
 
 .ant026_header-studio_header_area .ant026_header-studio_logo img {
     height: 25px;
