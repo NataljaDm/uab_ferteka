@@ -102,7 +102,7 @@ header.ant026_header-main-header {
 }
 
 .ant026_header-menu_right_icon ul {
-    /* margin-top: 28px; */
+    margin-top: 28px;
 }
 
 .ant026_header-menu_right_icon ul li {
@@ -211,7 +211,7 @@ header.ant026_header-main-header {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .ant026_header-studio_header_area .ant026_header-studio_logo {
-        /* margin-top: 21px; */
+         margin-top: 21px; 
     }
 }
 
