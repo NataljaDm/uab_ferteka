@@ -1,4 +1,4 @@
-.ant026_header-main-header ul,
+/*.ant026_header-main-header ul,
 .ant026_header-main-header li {
     list-style: none;
     padding: 0px;
@@ -83,6 +83,7 @@ header.ant026_header-main-header {
 }
 
 .ant026_header-studio_header_area {
+
     background: linear-gradient(to top, var(--main-color), #7ba2eb);
 }
 
@@ -108,7 +109,7 @@ header.ant026_header-main-header {
 .ant026_header-menu_right_icon ul li {
     /* display: inline-block; */
     /* float: left; */
-    padding-left: 26px;
+    /*padding-left: 26px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -161,7 +162,7 @@ header.ant026_header-main-header {
 .ant026_header-menu_right_icon .ant026_header-common_btn {
     color: #373737;
     font-size: 15px;
-    /* margin-top: -8px; */
+    /* margin-top: -8px; 
     margin-left: 10px;
     width: 140px;
 }
@@ -297,7 +298,7 @@ header.ant026_header-main-header {
     }
 }
 
-/* ant026_header-submenu styles */
+/* ant026_header-submenu styles 
 @media only screen and (min-width: 768px) {
     .ant026_header-submenu {
         left: 0;
@@ -323,7 +324,7 @@ header.ant026_header-main-header {
         transition: opacity .4s, -webkit-transform .5s;
         transition: opacity .4s, transform .5s;
         transition: opacity .4s, transform .5s, -webkit-transform .5s;
-        background: #f8f8f8;
+        background: #d6d7e6;
         border-bottom: 1px solid #4daefe;
         box-shadow: 1px 6px 4px rgba(0, 0, 0, 0.1);
     }
@@ -393,7 +394,7 @@ header.ant026_header-main-header {
     visibility: visible;
 }
 
-/* CSS3 delays for transition effects */
+/* CSS3 delays for transition effects 
 .ant026_header-menu li:hover .ant026_header-submenu li:nth-child(1) {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
@@ -512,7 +513,7 @@ header.ant026_header-main-header {
 }
 
 /*mean ant026_header-menu*/
-.mean-container a.meanmenu-reveal span {
+/*.mean-container a.meanmenu-reveal span {
     background-color: #fff;
 }
 
@@ -578,4 +579,4 @@ header.ant026_header-main-header {
     .ant026_header-studio_header_area {
         padding: 20px 0;
     }
-}
+}*/
