@@ -22,13 +22,16 @@ body {
     text-align: left;
 
 }
+
 .head {
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     padding: 40px 40px 40px 0;
 }
+
 .navBar {
     width: 80%;
     text-align: right;
@@ -37,11 +40,35 @@ body {
     padding-top: 40px;
 }
 
-*,
-::after,
-::before {
-    box-sizing: border-box
+
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
 }
+html, body {
+    height: 100%;
+  }
+
+ 
+  
+  .header__logo {
+    flex: 0 0 60px;
+    position: relative;
+    z-index: 3;
+  }
+  .header__logo img {
+    max-width: 60%;
+  /*убирает нижнее подрезание для круглой картинки*/
+    display: block;
+  }
+
+
+
+
+
 
 
 .bg-main {
