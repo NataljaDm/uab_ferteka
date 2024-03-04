@@ -1,5 +1,5 @@
 :root {
-    --main-color: #b1d3e7d8;
+    --main-color: #031d57ea;
     --dark-color: #111;
     --light-grey-color: #f3f3f3;
     --icon-color: #686868;
@@ -61,7 +61,7 @@ html, body {
 
 
 .bg-main {
-    background: linear-gradient(to top, var(--main-color), #7ba2eb);
+    background: linear-gradient(to bottom, var(--main-color), #bbbcbdbd);
     color: #fff;
 }
 
