@@ -40,23 +40,6 @@ html, body {
   }
 
  
-  
-  .header__logo {
-    flex: 0 0 60px;
-    position: relative;
-    z-index: 3;
-  }
-  .header__logo img {
-    max-width: 60%;
-  /*убирает нижнее подрезание для круглой картинки*/
-    display: block;
-  }
-
-
-
-
-
-
 
 .bg-main {
     background: linear-gradient(to bottom, var(--main-color), #bbbcbdbd);
