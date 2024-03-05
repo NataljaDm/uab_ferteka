@@ -1,0 +1,16 @@
+.header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.header > .row {
+    margin-top: 0;
+    margin-bottom: 0;  
+}
+.header .header-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header .logo {
+    margin-right: auto;
+}
