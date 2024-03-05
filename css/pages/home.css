@@ -12,6 +12,8 @@
 
 /* components */
 @import '../components/services.css';
+@import '../components/header.css';
+@import '../components/button.css';
 
 /* CUSTOM CSS */
 
