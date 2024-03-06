@@ -2,15 +2,30 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-.header > .row {
+
+.header>.row {
     margin-top: 0;
-    margin-bottom: 0;  
+    margin-bottom: 0;
 }
+
 .header .header-content {
     display: flex;
     gap: 30px;
     align-items: center;
 }
+
 .header .logo {
     margin-right: auto;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 20px;
+    gap: 2em;
+}
+
+.main-nav > a {
+    color: rgb(32, 31, 31);
+    text-decoration: none;
+    font-weight: bolder;
 }
