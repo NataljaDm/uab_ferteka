@@ -66,7 +66,7 @@ html, body {
 }
 
 .about-text {
-    font-size: larger;
+    font-size: 20px;
     color: #000000;
     position: relative;
     z-index: 2;
