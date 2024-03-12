@@ -2,40 +2,45 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    font-family: FontAwesome;
 }
-.services > .service {
+
+.services> .service {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 40px 20px;
+    padding: 40px 10px;
     text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 8px #0002;
+    font-family: FontAwesome;
+    /*background-color: #fff;
+    box-shadow: 0 4px 8px #0002;*/
 }
 
-.services > .service > .service-foto {
+.services> .service> .service-foto {
     font-size: 10px;
 }
 
-.services > .service > i {
-color: var(--icon-color);
-font-size: 60px;
+.services>.service>i {
+    font-family: FontAwesome;
+    color: var(--icon-color);
+    font-size: 60px;
 }
 
 .service-foto {
     color: var(--icon-color);
-    font-size: 60px;
-    }
+    font-size: 40px;
+}
 
-.services > .service > .service-title {
+.services>.service>.service-title {
     font-weight: bold;
     font-size: 20px;
     line-height: 1em;
 }
-.services > .service > .service-description {
-font-size: 17px;
-line-height: 1.3em;
-color: #777;
+
+.services>.service>.service-description {
+    font-size: 17px;
+    line-height: 1.3em;
+    color: #777;
 }
 
 @media (min-width:768px) {
@@ -43,8 +48,15 @@ color: #777;
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (min-width:995px) {
     .services {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1250px) {
+    .services {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
