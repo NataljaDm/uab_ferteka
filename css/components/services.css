@@ -2,42 +2,41 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    font-family: FontAwesome;
 }
 
 .services> .service {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 20px;
     padding: 40px 10px;
-    text-align: center;
-    font-family: FontAwesome;
+   
+
+
     /*background-color: #fff;
     box-shadow: 0 4px 8px #0002;*/
 }
 
-.services> .service> .service-foto {
-    font-size: 10px;
+
+.services> .service> .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 150px;
+    
+    background-color: var(--logo-color);
 }
 
-.services>.service>i {
-    font-family: FontAwesome;
-    color: var(--icon-color);
-    font-size: 60px;
-}
-
-.service-foto {
-    color: var(--icon-color);
-    font-size: 40px;
-}
 
 .services>.service>.service-title {
     font-weight: bold;
     font-size: 20px;
     line-height: 1em;
+
 }
 
-.services>.service>.service-description {
+.services> .service> .service-description {
     font-size: 17px;
     line-height: 1.3em;
     color: #777;
