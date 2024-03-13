@@ -4,43 +4,45 @@
     gap: 20px;
 }
 
-.services> .service {
+.services>.service {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     gap: 20px;
     padding: 40px 10px;
-   
+    text-align: center;
 
 
-    /*background-color: #fff;
+
+    /* background-color: #fff;
     box-shadow: 0 4px 8px #0002;*/
 }
 
-
-.services> .service> .icon {
+.services>.service>.icon {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    width: 150px;
     height: 150px;
-    
+    border-radius: 40%;
     background-color: var(--logo-color);
 }
+
 
 
 .services>.service>.service-title {
     font-weight: bold;
     font-size: 20px;
     line-height: 1em;
-
 }
 
-.services> .service> .service-description {
+.services .service-description {
     font-size: 17px;
     line-height: 1.3em;
-    color: #777;
+    color: #5a5858;
+    list-style-type: none;
 }
+
 
 @media (min-width:768px) {
     .services {
