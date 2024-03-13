@@ -48,7 +48,10 @@ html, body {
 .bg-light-grey {
     background-color: var(--light-grey-color);
 }
-
+.bg-logo {
+    background-color: var(--logo-color);
+    color: #fff 
+}
 p {
     margin-bottom: 1em;
     font-size: 20px;
