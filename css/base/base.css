@@ -1,5 +1,5 @@
 :root {
-    --main-color: #b9acf3ea;
+    --main-color: #d0cfd6ea;
     --logo-color: #4B7ACE;
     --dark-color: #111;
     --light-grey-color: #f3f3f3;
@@ -15,7 +15,7 @@ body * {
 }
 
 body {
-    font-family: FontAwesome;
+    
     margin: 0;
     font-size: 1rem;
     font-weight: 400;
