@@ -1,10 +1,61 @@
-.gallery{}
-.gallery > .filter {}
-.gallery > .filter > .option {}
-.gallery > .filter > .option:hover {}
-.gallery > .filter > .option.active {}
-.gallery > .gallery-content {}
-.gallery > .gallery-content > .card {}
-.gallery > .gallery-content > .card > .image {}
-.gallery > .gallery-content > .card > .title {}
-.gallery > .gallery-content > .card > .tag {}
+.gallery{
+    display: grid;
+    gap: 40px;
+}
+.gallery > .filter {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.gallery > .filter > .option {
+    padding: 0.5em 1em;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    cursor: pointer;
+
+}
+.gallery > .filter > .option:hover,
+.gallery > .filter > .option.active {
+    background-color: blue;
+    color: #fff;
+}
+.gallery > .gallery-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.gallery > .gallery-content > .card {
+  display: grid;
+  gap: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;  
+}
+.gallery > .gallery-content > .card > .image {
+    aspect-ratio: 16/9;
+}
+.gallery > .gallery-content > .card > .title {
+    padding: 0 1em;
+}
+.gallery > .gallery-content > .card > .title:hover {
+
+}
+.gallery > .gallery-content > .card > .tag {
+    padding: 0 1em;
+    margin: 0;
+}
+
+@media (min-width:800px) {
+    .gallery > .gallery-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1100px) {
+    .gallery > .gallery-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
