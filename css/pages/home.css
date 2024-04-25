@@ -11,11 +11,11 @@
 @import '../vendor/et-line.css';
 
 /* components */
-@import '../components/services.css';
-@import '../components/header.css';
-@import '../components/button.css';
 @import '../components/burger.css';
-
+@import '../components/button.css';
+@import '../components/gallery.css';
+@import '../components/header.css';
+@import '../components/services.css';
 /* CUSTOM CSS */
  body {
    

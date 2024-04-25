@@ -1,0 +1,10 @@
+.gallery{}
+.gallery > .filter {}
+.gallery > .filter > .option {}
+.gallery > .filter > .option:hover {}
+.gallery > .filter > .option.active {}
+.gallery > .gallery-content {}
+.gallery > .gallery-content > .card {}
+.gallery > .gallery-content > .card > .image {}
+.gallery > .gallery-content > .card > .title {}
+.gallery > .gallery-content > .card > .tag {}
