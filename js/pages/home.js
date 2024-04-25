@@ -1,5 +1,5 @@
 // IMPORTS
-import { portfolioData } from "../../data/portfolioData.js";
+import {  portfolioData} from "../../data/portfolioData.js";
 // EXECUTION
 
 /* HEADER: start */
