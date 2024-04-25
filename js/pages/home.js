@@ -1,5 +1,5 @@
 // IMPORTS
-
+import { portfolioData } from "../../data/portfolioData.js";
 // EXECUTION
 
 /* HEADER: start */
@@ -12,8 +12,6 @@
 /* ABOUT ME: end */
 
 /* SERVICES: start */
-console.log('services...');
-
 /* SERVICES: end */
 
 /* RESUME: start */
@@ -23,6 +21,9 @@ console.log('services...');
 /* FREELANCE: end */
 
 /* PORTFOLIO: start */
+
+console.log(portfolioData);
+
 /* PORTFOLIO: end */
 
 /* TESTIMONIALS: start */
