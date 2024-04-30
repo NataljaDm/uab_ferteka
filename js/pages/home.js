@@ -1,5 +1,6 @@
 // IMPORTS
 import {  portfolioData} from "../../data/portfolioData.js";
+import { Gallery } from '../components/Gallery.js';
 // EXECUTION
 
 /* HEADER: start */
@@ -14,16 +15,14 @@ import {  portfolioData} from "../../data/portfolioData.js";
 /* SERVICES: start */
 /* SERVICES: end */
 
-/* RESUME: start */
-/* RESUME: end */
+/* PROJECTS: start */
 
-/* FREELANCE: start */
-/* FREELANCE: end */
+const portfolio = new Gallery('#portfolio_block', portfolioData);
+portfolio.render();
+
+/* PROJECTS: end */
 
 /* PORTFOLIO: start */
-
-console.log(portfolioData);
-
 /* PORTFOLIO: end */
 
 /* TESTIMONIALS: start */
