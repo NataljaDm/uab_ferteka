@@ -17,8 +17,8 @@ import { Gallery } from '../components/Gallery.js';
 
 /* PROJECTS: start */
 
-const portfolio = new Gallery('#portfolio_block', portfolioData);
-portfolio.render();
+new Gallery('#portfolio_block', portfolioData);
+
 
 /* PROJECTS: end */
 
