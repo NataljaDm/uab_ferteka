@@ -19,10 +19,11 @@
 /* CUSTOM CSS */
  body {
    
-    background-image: url('../../img/17.jpg');
+    background-image: url('../../img/20.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 400px;
+    background-size: 100% 350px;
+    
  }
  /*body {
     background: linear-gradient(
