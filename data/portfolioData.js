@@ -11,41 +11,41 @@ const portfolioData = {
             alt: 'Mercury data center',
             title: 'Mercury',
             href: '#',
-            tag: 'Data center'
+            tags: ['Data center'],
         },{
-            img: 'orlen.png',
+            img: 'orlen.jpg',
             alt: 'orlen',
             title: 'ORLEN',
             href: '#',
-            tag: 'Industrial project'
+            tags: ['Industrial project'],
         },
         {
             img: 'ltg.png',
             alt: 'Lietuvos gelezinkeliai',
             title: 'LTG',
             href: '#',
-            tag: 'Industrial project'
+            tags: ['Industrial project'],
         },
         {
             img: 'rac.png',
             alt: 'Apartment complex',
             title: 'Resident apartment complex',
             href: '#',
-            tag: 'Industrial project'
+            tags: ['Industrial project'],
         },
         {
-            img: 'yacht.png',
+            img: 'yacht.jpg',
             alt: 'Mega yacht',
             title: 'Mega Yacht',
             href: '#',
-            tag: 'Shipbuilding'
+            tags: ['Shipbuilding'],
         },
         {
             img: 'par13.png',
             alt: 'Costa Smeralda',
             title: 'Costa Smeralda',
             href: '#',
-            tag: 'Shipbuilding'
+            tags: ['Shipbuilding'],
         }
     ]
 };
