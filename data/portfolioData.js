@@ -41,7 +41,7 @@ const portfolioData = {
             tags: ['Shipbuilding'],
         },
         {
-            img: 'par13.png',
+            img: 'vessel.jpg',
             alt: 'Costa Smeralda',
             title: 'Costa Smeralda',
             href: '#',
