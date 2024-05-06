@@ -48,24 +48,27 @@
 .container-fluid {
     display: inline-block;
     width: 100%;
-    padding: 60px 0;
-    
+    padding: 0px 0;
+
 }
 
 .container>.row {
     display: inline-block;
     width: var(--width);
     margin: 20px calc((100% - var(--width)) / 2);
-    
+
 }
 
 .container-fluid>.row {
     display: inline-block;
     width: 100%;
     margin: 20px 0;
-    
+
 }
 
+.container-fluid>.row>.nomargin {
+    margin: 0;
+}
 
 .row>[class*='col-'] {
     float: left;

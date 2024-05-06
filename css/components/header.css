@@ -2,6 +2,14 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+header {
+   
+    background-image: url('../../img/20.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+ }
 
 .header>.row {
     margin-top: 0;
@@ -20,12 +28,19 @@
 
 .main-nav {
     display: flex;
-    font-size: 20px;
+    font-size: 22px;
     gap: 2em;
 }
 
-.main-nav > a {
-    color: #fff;
+.main-nav>a {
+    color: #E3F4F4;
     text-decoration: none;
     font-weight: bolder;
+}
+
+.header-text {
+    font-size: 30px;
+    color: #342a50;
+   margin-top: 1em;
+   
 }
