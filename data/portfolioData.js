@@ -12,7 +12,8 @@ const portfolioData = {
             title: 'Mercury',
             href: '#',
             tags: ['Data center'],
-        },{
+        },
+        {
             img: 'orlen.jpg',
             alt: 'orlen',
             title: 'ORLEN',
@@ -46,7 +47,28 @@ const portfolioData = {
             title: 'Costa Smeralda',
             href: '#',
             tags: ['Shipbuilding'],
-        }
+        },
+        {
+            img: 'yacht.jpg',
+            alt: 'Mega yacht',
+            title: 'Mega Yacht',
+            href: '#',
+            tags: ['Shipbuilding'],
+        },
+        {
+            img: 'yacht.jpg',
+            alt: 'Mega yacht',
+            title: 'Mega Yacht',
+            href: '#',
+            tags: ['Shipbuilding'],
+        },
+        {
+            img: 'yacht.jpg',
+            alt: 'Mega yacht',
+            title: 'Mega Yacht',
+            href: '#',
+            tags: ['Shipbuilding'],
+        },
     ]
 };
 
