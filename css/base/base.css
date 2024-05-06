@@ -79,7 +79,7 @@ p {
 
     .about-text {
         font-size: 20px;
-        color: #000000;
+        color: #342a50;
         position: relative;
         z-index: 2;
     }
@@ -155,5 +155,31 @@ p {
     @media (max-width: 992px) {
         .hid {
             display: none !important;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .about-text {
+            font-size: 18px;
+            color: #342a50;
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+    @media (max-width: 750px) {
+        .about-text {
+            font-size: 15px;
+            color: #342a50;
+            position: relative;
+            z-index: 2;
+        }
+    }
+    @media (max-width: 420px) {
+        .about-text {
+            font-size: 12px;
+            color: #342a50;
+            position: relative;
+            z-index: 2;
         }
     }
