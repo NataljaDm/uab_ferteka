@@ -38,7 +38,17 @@ html,
 body {
     height: 100%;
 }
-
+.bg-body {
+    background: linear-gradient(
+        120deg,
+        #d0d0d4 0%,
+        #d0d0d4 59%,
+        #4B7ACE 59%,
+        #4B7ACE 100%);
+        background-repeat: repeat-x;
+        
+    
+}
 .bg-main {
     background: linear-gradient(to bottom, var(--main-color), #bbbcbdbd);
     color: #fff;
