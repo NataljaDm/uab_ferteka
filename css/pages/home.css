@@ -18,15 +18,7 @@
 @import '../components/services.css';
 /* CUSTOM CSS */
 
- body {
-    background: linear-gradient(
-        30deg,
-        #d0d0d4 0%,
-        #d0d0d4 59%,
-        #4B7ACE 59%,
-        #4B7ACE 100%
-    );
-}
+ 
 /* HEADER: start */
 /* HEADER: end */
 
