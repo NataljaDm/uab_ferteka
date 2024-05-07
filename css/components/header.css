@@ -37,11 +37,13 @@ header {
 }
 
 .header-title {
-    font-size: 30px;
-    color: #E3F4F4;
+    font-size: 50px;
+    color: #2EA5F2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin-top: 2em;
    margin-bottom: 2em;
+   font-weight: bolder;
+   text-transform:uppercase;
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
