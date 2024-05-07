@@ -1,0 +1,17 @@
+.about-title {
+    font-size: 24px;
+    color: #E3F4F4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
+/* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
+
+.about-text {
+    font-size: 16px;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}

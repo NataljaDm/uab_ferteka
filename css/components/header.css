@@ -3,12 +3,10 @@
     padding-bottom: 0;
 }
 header {
-   
     background-image: url('../../img/20.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
  }
 
 .header>.row {
@@ -55,3 +53,30 @@ header {
    margin-top: 2em;
    margin-bottom: 2em;
 }
+
+@media (max-width: 2600px) {
+    header {
+        background-image: url('../../img/20.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
+        background-position: center;
+     }
+}
+@media (max-width: 1800px) {
+    header {
+        background-image: url('../../img/20.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+     }
+}
+
+/*@media (max-width: 2600px) {
+    body {
+      
+        background-size: 90% 100%;
+        background-position: center;
+     }
+}*/
