@@ -31,18 +31,18 @@ header {
 }
 
 .header .main-nav>a {
-    color: #E3F4F4;
+    color: var(--light-grey-color);
     text-decoration: none;
     font-weight: bolder;
 }
 
 .header-title {
     font-size: 50px;
-    color: #2EA5F2;
+    color: #17A0EF;
     
    margin-top: 2em;
    margin-bottom: 1em;
-   font-weight: bolder;
+   font-weight:bolder;
    text-transform:uppercase;
 }
 
@@ -50,8 +50,8 @@ header {
 
 .header .header-text {
     font-size: 20px;
-    color: #000000;
-    
+    color: var(--light-grey-color);
+    line-height: 2em;
    margin-top: 2em;
    margin-bottom: 2em;
 }
