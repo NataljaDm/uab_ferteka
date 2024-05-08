@@ -1,17 +1,124 @@
-.about-title {
-    font-size: 24px;
-    color: #E3F4F4;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin-top: 2em;
-   margin-bottom: 2em;
+.about {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about>.row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about .about-title {
+    font-size: 30px;
+    color: #2EA5F2;
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
 
-.about-text {
+.about .about-text {
     font-size: 16px;
     color: #000000;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin-top: 2em;
-   margin-bottom: 2em;
+
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.about .ramka {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 2em;
+
+}
+
+.about .ramka span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.about .ramka span:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.about .ramka span:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+.about .ramka span:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.about .ramka span:nth-child(4) {
+    transform: rotate(270deg);
+}
+
+.about .ramka span:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+   background: #2EA5F2;
+   animation: anim-ramka 4s linear infinite;
+}
+@keyframes anim-ramka {
+    0% {
+        transform: scaleX(0);
+       transform-origin: left;
+    }
+    50% {
+        transform: scaleX(1);
+       transform-origin: left;
+    }
+    50.1% {
+        transform: scaleX(1);
+       transform-origin: right;
+    }
+    100% {
+        transform: scaleX(0);
+       transform-origin: right;
+    }
+}
+
+
+.about .about-key {
+    font-size: 20px;
+   
+}
+
+.about .keybox {
+    list-style: none;
+    
+}
+
+.about .keybox-item {}
+
+
+.about .about-service {}
+
+.about .servicebox {
+    list-style: none;
+}
+
+.about .servicebox-item {}
+
+.servicebox-item>img {
+    width: 25px;
+    height: 25px;
 }

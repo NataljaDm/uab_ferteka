@@ -22,10 +22,10 @@
 /* HEADER: start */
 /* HEADER: end */
 
-/* HERO: start */
-/* HERO: end */
+
 
 /* ABOUT ME: start */
+@import '../components/about.css';
 /* ABOUT ME: end */
 
 /* SERVICES: start */

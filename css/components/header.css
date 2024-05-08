@@ -1,14 +1,14 @@
-.header {
-    padding-top: 0;
-    padding-bottom: 0;
-}
 header {
     background-image: url('../../img/20.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100% 100%;
  }
-
+.header {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .header>.row {
     margin-top: 0;
     margin-bottom: 0;
@@ -24,13 +24,13 @@ header {
     margin-right: auto;
 }
 
-.main-nav {
+.header .main-nav {
     display: flex;
     font-size: 22px;
     gap: 2em;
 }
 
-.main-nav>a {
+.header .main-nav>a {
     color: #E3F4F4;
     text-decoration: none;
     font-weight: bolder;
@@ -39,19 +39,19 @@ header {
 .header-title {
     font-size: 50px;
     color: #2EA5F2;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
    margin-top: 2em;
-   margin-bottom: 2em;
+   margin-bottom: 1em;
    font-weight: bolder;
    text-transform:uppercase;
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
 
-.header-text {
+.header .header-text {
     font-size: 20px;
     color: #000000;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
    margin-top: 2em;
    margin-bottom: 2em;
 }
