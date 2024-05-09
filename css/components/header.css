@@ -37,13 +37,15 @@ header {
 }
 
 .header-title {
-    font-size: 50px;
+    font-size: 3.2em;
     color: #17A0EF;
     
    margin-top: 2em;
-   margin-bottom: 1em;
+   margin-bottom: 0.5em;
    font-weight:bolder;
    text-transform:uppercase;
+   word-spacing: 0.8em;
+   letter-spacing: 0.08em;
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
