@@ -11,10 +11,17 @@
 
 .about .about-title {
     font-size: 30px;
-    color: #2EA5F2;
-
+    color: var(--logo-color);
+    cursor: pointer;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.about-title>a {
+    
+    text-transform: uppercase;
+    text-decoration: none;
+
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
@@ -74,43 +81,50 @@
     position: absolute;
     width: 100%;
     height: 4px;
-   background: #2EA5F2;
-   animation: anim-ramka 4s linear infinite;
+    background: var(--logo-color);
+    animation: anim-ramka 4s linear infinite;
 }
+
 @keyframes anim-ramka {
     0% {
         transform: scaleX(0);
-       transform-origin: left;
+        transform-origin: left;
     }
+
     50% {
         transform: scaleX(1);
-       transform-origin: left;
+        transform-origin: left;
     }
+
     50.1% {
         transform: scaleX(1);
-       transform-origin: right;
+        transform-origin: right;
     }
+
     100% {
         transform: scaleX(0);
-       transform-origin: right;
+        transform-origin: right;
     }
 }
 
 
 .about .about-key {
     font-size: 20px;
-   
+
 }
 
 .about .keybox {
     list-style: none;
-    
+
 }
 
 .about .keybox-item {}
 
 
-.about .about-service {}
+.about .about-service {
+    font-size: 18px;
+    margin-bottom: 1em;
+}
 
 .about .servicebox {
     list-style: none;
@@ -119,8 +133,8 @@
 .about .servicebox-item {}
 
 .servicebox-item>img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .about .about-workflow {

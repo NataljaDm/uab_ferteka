@@ -38,7 +38,7 @@ header {
 
 .header-title {
     font-size: 3.2em;
-    color: #17A0EF;
+    color: var(--logo-color);
     
    margin-top: 2em;
    margin-bottom: 0.5em;
