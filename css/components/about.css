@@ -114,11 +114,13 @@
 }
 
 .about .keybox {
-    list-style: none;
+ align-items: center;   
 
 }
 
-.about .keybox-item {}
+.about .keybox-item {
+    line-height: 2em;
+}
 
 
 .about .about-service {
@@ -133,8 +135,8 @@
 .about .servicebox-item {}
 
 .servicebox-item>img {
-    width: 30px;
-    height: 30px;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 .about .about-workflow {
