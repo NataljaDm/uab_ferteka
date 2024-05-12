@@ -1,6 +1,6 @@
 :root {
     --main-color: #d0cfd6ea;
-    --logo-color: #008afc;
+    --logo-color: #091f9e;
     --dark-color: #111;
     --light-grey-color: #f3f3f3;
     --icon-color: #686868;
@@ -40,15 +40,15 @@ body {
 }
 
 .bg-main {
-    background: linear-gradient(to top, var(--light-grey-color), #444A4A);
+    background: linear-gradient(to top, var(--light-grey-color), #092F62);
     
 }
 .bg-main-main {
-    background: linear-gradient(to bottom, var(--light-grey-color), #444A4A);
+    background: linear-gradient(to bottom, var(--light-grey-color), #092F62);
     
 }
 .bg-main-dark {
-    background: linear-gradient(to bottom, #444A4A, var(--dark-color));
+    background: linear-gradient(to bottom, #092F62, var(--dark-color));
     
 }
 .bg-dark {
