@@ -1,5 +1,5 @@
 const portfolioData = {
-    imgFolder: './img/project-foto/',
+    imgFolder: '../../img/project-foto/',
     contentOrder: 'imgAZ',
     size: {
         min:1,
