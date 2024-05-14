@@ -28,8 +28,9 @@
 @import '../components/about.css';
 /* ABOUT ME: end */
 
-/* SERVICES: start */
-/* SERVICES: end */
+/* PARTNERSHIP: start */
+@import '../components/partner.css';
+/* PARTNERSHIP: end */
 
 /* RESUME: start */
 /* RESUME: end */
