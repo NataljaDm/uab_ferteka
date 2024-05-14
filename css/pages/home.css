@@ -16,43 +16,34 @@
 @import '../components/gallery.css';
 @import '../components/header.css';
 @import '../components/services.css';
-/* CUSTOM CSS */
+@import '../components/about.css';
+@import '../components/partner.css';
+@import '../components/workflow.css';
 
- 
+
 /* HEADER: start */
 /* HEADER: end */
 
-
-
 /* ABOUT ME: start */
-@import '../components/about.css';
 /* ABOUT ME: end */
 
 /* PARTNERSHIP: start */
-@import '../components/partner.css';
 /* PARTNERSHIP: end */
 
-/* RESUME: start */
-/* RESUME: end */
-
-/* FREELANCE: start */
-/* FREELANCE: end */
-
-/* SLIDES: start 
-@import '../slides/data.css';
-sSLIDES: end */
-
-/* PORTFOLIO: start */
-/* PORTFOLIO: end */
-
-/* TESTIMONIALS: start */
-/* TESTIMONIALS: end */
-
-/* BLOGS: start */
-/* BLOGS: end */
+/* PROJECTS: start */
+/* PROJECTS: end */
 
 /* CONTACT: start */
 /* CONTACT: end */
 
 /* FOOTER: start */
 /* FOOTER: end */
+
+
+
+
+
+
+/* SLIDES: start 
+@import '../slides/data.css';
+sSLIDES: end */
