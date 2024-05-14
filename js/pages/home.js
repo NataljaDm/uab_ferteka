@@ -1,7 +1,7 @@
 // IMPORTS
 import {  portfolioData} from "../../data/portfolioData.js";
 import { Gallery } from '../components/Gallery.js';
-import { GalleryPage } from '../components/homeGallery.js';
+import { GalleryPage } from '../components/GalleryPage.js';
 // EXECUTION
 
 /* HEADER: start */

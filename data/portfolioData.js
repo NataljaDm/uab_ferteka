@@ -3,6 +3,10 @@ const portfolioData = {
     contentOrder: 'imgAZ',
     size: {
         min:1,
+        max:12,
+    },
+    size1: {
+        min:1,
         max:6,
     },
     data:[

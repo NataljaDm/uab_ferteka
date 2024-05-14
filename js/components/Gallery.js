@@ -5,9 +5,9 @@ class Gallery {
 
     this.imgFolder = "";
     this.contentOrder = "default";
-    this.size = {
+    this.size1 = {
       min: 1,
-      max: 12,
+      max: 6,
     };
     this.DOM = null;
 
@@ -54,8 +54,8 @@ class Gallery {
   }
 
   isValidData() {
-    const { imgFolder, contentOrder, size, data } = this.data ?? {};
-    const { min, max } = size ?? {};
+    const { imgFolder, contentOrder, size1, data } = this.data ?? {};
+    const { min, max } = size1 ?? {};
 
     if (this.isNonEmptyString(imgFolder)) {
       this.imgFolder = imgFolder.trim();
@@ -65,15 +65,15 @@ class Gallery {
       this.contentOrder = contentOrder.trim();
     }
 
-    if (size && this.isPositiveInteger(min)) {
-      this.size.min = min;
+    if (size1 && this.isPositiveInteger(min)) {
+      this.size1.min = min;
     }
 
-    if (size && this.isPositiveInteger(max)) {
-      this.size.max = max;
+    if (size1 && this.isPositiveInteger(max)) {
+      this.size1.max = max;
     }
 
-    if (!this.isNonEmptyArray(data, this.size.min)) {
+    if (!this.isNonEmptyArray(data, this.size1.min)) {
       return false;
     }
 
@@ -157,7 +157,7 @@ class Gallery {
 
     let count = 0;
     for (const item of this.data.data) {
-      if (count >= this.size.max) {
+      if (count >= this.size1.max) {
         break;
       }
       count++;
