@@ -171,6 +171,130 @@
     margin-left: var(--ml11);
 }
 
+@media (min-width: 350px) {
+    :root {
+        --half-gap: 15px;
+    }
+
+    .visible-ssm {
+        display: inline-block !important;
+    }
+
+    .visible-ssm-flex {
+        display: flex !important;
+    }
+
+    .visible-ssm-grid {
+        display: grid !important;
+    }
+
+    .hidden-ssm {
+        display: none !important;
+    }
+
+    .row {
+        width: 320px;
+        margin: 0 calc(50% - 160px);
+    }
+
+    .row>.col-ssm-1 {
+        width: var(--col1);
+    }
+
+    .row>.col-ssm-2 {
+        width: var(--col2);
+    }
+
+    .row>.col-ssm-3 {
+        width: var(--col3);
+    }
+
+    .row>.col-ssm-4 {
+        width: var(--col4);
+    }
+
+    .row>.col-ssm-5 {
+        width: var(--col5);
+    }
+
+    .row>.col-ssm-6 {
+        width: var(--col6);
+    }
+
+    .row>.col-ssm-7 {
+        width: var(--col7);
+    }
+
+    .row>.col-ssm-8 {
+        width: var(--col8);
+    }
+
+    .row>.col-ssm-9 {
+        width: var(--col9);
+    }
+
+    .row>.col-ssm-10 {
+        width: var(--col10);
+    }
+
+    .row>.col-ssm-11 {
+        width: var(--col11);
+    }
+
+    .row>.col-ssm-12 {
+        width: var(--col12);
+    }
+
+    .row>.ml-ssm-0 {
+        margin-left: var(--ml0);
+    }
+
+    .row>.ml-ssm-1 {
+        margin-left: var(--ml1);
+    }
+
+    .row>.ml-ssm-2 {
+        margin-left: var(--ml2);
+    }
+
+    .row>.ml-ssm-3 {
+        margin-left: var(--ml3);
+    }
+
+    .row>.ml-ssm-4 {
+        margin-left: var(--ml4);
+    }
+
+    .row>.ml-ssm-5 {
+        margin-left: var(--ml5);
+    }
+
+    .row>.ml-ssm-6 {
+        margin-left: var(--ml6);
+    }
+
+    .row>.ml-ssm-7 {
+        margin-left: var(--ml7);
+    }
+
+    .row>.ml-ssm-8 {
+        margin-left: var(--ml8);
+    }
+
+    .row>.ml-ssm-9 {
+        margin-left: var(--ml9);
+    }
+
+    .row>.ml-ssm-10 {
+        margin-left: var(--ml10);
+    }
+
+    .row>.ml-ssm-11 {
+        margin-left: var(--ml11);
+    }
+}
+
+
 @media (min-width: 576px) {
     :root {
         --half-gap: 15px;
