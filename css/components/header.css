@@ -1,14 +1,16 @@
 header {
-    background-image: url('../../img/7.jpg');
+    background-image: url('../../img/10.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100% 100%;
- }
+}
+
 .header {
     padding-top: 0;
     padding-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .header>.row {
     margin-top: 0;
     margin-bottom: 0;
@@ -38,14 +40,14 @@ header {
 
 .header-title {
     font-size: 3.2em;
-    color: #ffffff;
-    
-   margin-top: 2em;
-   margin-bottom: 0.5em;
-   font-weight:bolder;
-   text-transform:uppercase;
-   word-spacing: 0.8em;
-   letter-spacing: 0.08em;
+    color: var(--light-grey-color);
+
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    word-spacing: 0.8em;
+    letter-spacing: 0.08em;
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
@@ -54,27 +56,73 @@ header {
     font-size: 20px;
     color: var(--light-grey-color);
     line-height: 2em;
-   margin-top: 2em;
-   margin-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
+
+
+/*.header .ul-header {
+    margin: 50px;
+    display: block;
+    overflow: hidden;
+    height: 60px;
+    padding: 0 0 0 50px;
+}
+
+.header .li-header {
+    margin: 1px 0;
+    height: 60px;
+}
+
+.li-header a {
+    font-size: 14px;
+}
+
+.ul-header div {
+    animation: tween 10s ease infinite;
+}
+
+@keyframes tween {
+    0% {
+        margin-top: 0;
+    }
+
+    40% {
+        margin-top: -20px;
+    }
+
+    60% {
+        margin-top: -40px;
+    }
+    80% {
+        margin-top: -60px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+}*/
+
 
 @media (max-width: 2600px) {
     header {
-        background-image: url('../../img/7.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-size: 90% 100%;
-        background-position: center;
-     }
-}
-@media (max-width: 1800px) {
-    header {
-        background-image: url('../../img/7.jpg');
+        background-image: url('../../img/10.jpg');
         background-size: contain;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center;
-     }
+    }
+}
+
+@media (max-width: 1800px) {
+    header {
+        background-image: url('../../img/10.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
 }
 
 /*@media (max-width: 2600px) {
