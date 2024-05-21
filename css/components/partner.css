@@ -157,59 +157,65 @@ partner-text {}
     width: 4.5rem;
     height: 4.5rem;
 }
-
-.btn {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1rem;
-    text-decoration: none;
-    text-transform: capitalize;
-    border: none;
-    color: #fff;
-    background-color: var(--main-color);
-    border-radius: 0.8rem;
+.button-73 {
+    width: 11rem;
+    height: 3rem;
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 30rem;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
     cursor: pointer;
-    transition: all 0.5s;
-    position: relative;
-    overflow: hidden;
+    display: inline-block;
+    font-family: -apple-system, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -.24px;
+    margin-left: 6rem;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
-.btn:hover {
-    padding: 0.7em 1.5em 0.7em 0.8em;
+.button-73:hover {
+    background-color: var(--main-color);
+    box-shadow: #291f86 0 -6px 8px inset;
+    transform: scale(1.125);
 }
 
-.btn::after {
-    font-family: FontAwesome;
-    content: '\f061';
-    font-size: 14px;
-    position: absolute;
-    right: 0;
-    transform: translateX(150%);
-    z-index: 1;
-    transition: all 0.5s;
+.button-73:active {
+    transform: scale(1.025);
 }
-
-.btn:hover::after {
-    transform: translateX(-100%);
-}
-
 
 @media (min-width:768px) {
     .home {
         grid-template-columns: 1fr 1fr;
     }
-
-    .home-partner-title .home-partner-title1 {
-
-        height: 8em;
-        font-size: 35px;
-
+    .home-partner-foto1 
+    .home-partner-foto2 {
+        width: 25rem;
+        height: 25rem;
+    }
+    .home-partner-title 
+    .home-partner-title1 {
+        height: 50rem;
+        font-size: 55px;
+    }
+    .button-73 {
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+        margin-left: 100px;
     }
 }
+
 @media (min-width:992px) {
     .home {
         grid-template-columns: 1fr 1fr;
@@ -227,15 +233,12 @@ partner-text {}
         padding-top: 5rem;
     }
 
-    
     .home-partner-title {
-
         height: 15rem;
         font-size: 35px;
-        ;
     }
     .button-73 {
-        margin-left: 5rem;
+        margin-left: 15rem;
     }
 }
 @media (min-width:1200px) {
@@ -293,50 +296,8 @@ partner-text {}
 
 
 
-/* CSS */
-.button-73 {
-    width: 11rem;
-    height: 3rem;
-    appearance: none;
-    background-color: #FFFFFF;
-    border-radius: 30rem;
-    border-style: none;
-    box-shadow: #ADCFFF 0 -12px 6px inset;
-    box-sizing: border-box;
-    color: #000000;
-    cursor: pointer;
-    display: inline-block;
-    font-family: -apple-system, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: -.24px;
-    margin-left: 6rem;
-    outline: none;
-    padding: 1rem 1.3rem;
-    quotes: auto;
-    text-align: center;
-    text-decoration: none;
-    transition: all .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.button-73:hover {
-    background-color: var(--main-color);
-    box-shadow: #291f86 0 -6px 8px inset;
-    transform: scale(1.125);
-}
-
-.button-73:active {
-    transform: scale(1.025);
-}
 
 
 
-@media (min-width: 768px) {
-    .button-73 {
-        font-size: 1.5rem;
-        padding: .75rem 2rem;
-    }
-}
+
+
