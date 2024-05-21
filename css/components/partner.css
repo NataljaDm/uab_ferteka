@@ -76,11 +76,12 @@ partner-text {}
 
 .home-partner-title {
     display: inline-block;
-    width: 10em;
-    height: 10em;
-    font-size: 30px;
+    width: 8em;
+    font-size: 20px;
+    padding-top: 2em;
     
 }
+
 .home-partner-title.left {
     text-align: left;
 }
@@ -109,6 +110,19 @@ partner-text {}
     margin-right: 3em;
 }
 
+.home2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+ .home-strelka {
+    width: 4em;
+    height: 4em;
+text-align: center;
+margin-left: 6em;
+padding-top: 0;
+ }
 
 @media (min-width:768px) {
     .home {
@@ -123,7 +137,7 @@ partner-text {}
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1200px) {
     .home {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -137,9 +151,6 @@ partner-text {}
     }
     .home-partner-title {
         
-        width: 10em;
-        height: 10em;
-        font-size: 25px;
         
     }
 }
