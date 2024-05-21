@@ -18,7 +18,7 @@ import { GalleryPage } from '../components/GalleryPage.js';
 
 /* PROJECTS: start */
 
-new Gallery('#portfolio_block', portfolioData);
+new Gallery ('#portfolio_block', portfolioData);
 
 
 /* PROJECTS: end */

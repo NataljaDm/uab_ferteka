@@ -1,0 +1,55 @@
+.iso {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.iso-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 5rem;
+    
+}
+.iso-description {
+    font-size: 17px;
+    line-height: 1.3em;
+    color: #3f3e3e;
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+ .elloop {
+    padding-left: 20rem;
+ }
+
+.elconsa {
+    padding-left: 5rem;
+}
+
+@media (min-width:350px) {
+    .elloop {
+        padding-left: 0;
+     }
+     .elconsa {
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width:760px) {
+    .elloop {
+        padding-left: 5rem;
+     }
+     .elconsa {
+        padding-left: 3rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .elloop {
+        padding-left: 15rem;
+     }
+     .elconsa {
+        padding-left: 5rem;
+    }
+}
