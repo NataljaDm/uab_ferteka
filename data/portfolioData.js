@@ -142,7 +142,14 @@ const portfolioData = {
             title: 'Fedor Ushakov',
             href: '#',
             tags: ['Shipbuilding'],
-        },              
+        },  
+        {
+            img: 'stepan.png',
+            alt: 'icebreaking tanker',
+            title: 'Stepan Makarov',
+            href: '#',
+            tags: ['Shipbuilding'],
+        },            
         
     ]
 };
