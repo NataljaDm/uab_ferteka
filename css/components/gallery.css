@@ -37,6 +37,12 @@
 .gallery > .gallery-content > .card.hide {
     display: none;
   }
+  .gallery > .gallery-content > .card:hover {
+     box-shadow: #291f86 0 -6px 8px inset;
+    transform: scale(1.05);
+  }
+
+
 .gallery > .gallery-content > .card > .image {
     width: 100%;
     aspect-ratio: 16/9;
@@ -47,7 +53,8 @@
     padding: 0 1em;
 }
 .gallery > .gallery-content > .card > .title:hover {
-
+    
+   
 }
 .gallery > .gallery-content > .card > .tag {
     padding: 0 1em;
