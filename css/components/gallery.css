@@ -2,12 +2,14 @@
     display: grid;
     gap: 40px;
 }
+
 .gallery > .filter {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
+
 .gallery > .filter > .option {
     padding: 0.5em 1em;
     font-size: 16px;
@@ -15,18 +17,20 @@
     border: 1px solid #ccc;
     border-radius: 0.3em;
     cursor: pointer;
-
 }
+
 .gallery > .filter > .option:hover,
 .gallery > .filter > .option.active {
     background-color: blue;
     color: #fff;
 }
+
 .gallery > .gallery-content {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
 }
+
 .gallery > .gallery-content > .card {
   display: grid;
   gap: 15px;
@@ -34,14 +38,15 @@
   border: 1px solid #ccc;
   border-radius: 10px;  
 }
+
 .gallery > .gallery-content > .card.hide {
     display: none;
-  }
-  .gallery > .gallery-content > .card:hover {
+}
+
+.gallery > .gallery-content > .card:hover {
      box-shadow: #291f86 0 -6px 8px inset;
     transform: scale(1.05);
-  }
-
+}
 
 .gallery > .gallery-content > .card > .image {
     width: 100%;
@@ -49,13 +54,13 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
 .gallery > .gallery-content > .card > .title {
     padding: 0 1em;
 }
-.gallery > .gallery-content > .card > .title:hover {
-    
-   
-}
+
+.gallery > .gallery-content > .card > .title:hover {}
+
 .gallery > .gallery-content > .card > .tag {
     padding: 0 1em;
     margin: 0;

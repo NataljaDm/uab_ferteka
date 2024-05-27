@@ -165,10 +165,16 @@ class Gallery {
       const path = this.imgFolder + item.img;
       const dataTags = item.tags.join(",").toLowerCase();
 
-      HTML += `<div class="card" data-tags="${dataTags}">
+      //HTML += `<div class="card" data-tags="${dataTags}">
+        //    <img class="image" src="${path}" alt="${item.alt}">
+         //   <a class="title" href="${item.href}">${item.title}</a>
+         //  <p class="tag">${item.tags[0]}</p>
+       // </div>`;
+
+        HTML += `<div class="card" data-tags="${dataTags}">
             <img class="image" src="${path}" alt="${item.alt}">
             <a class="title" href="${item.href}">${item.title}</a>
-            <p class="tag">${item.tags[0]}</p>
+           
         </div>`;
     }
 
