@@ -57,6 +57,7 @@
 
 .gallery > .gallery-content > .card > .title {
     padding: 0 1em;
+    font-size: 20px;
 }
 
 .gallery > .gallery-content > .card > .title:hover {}
