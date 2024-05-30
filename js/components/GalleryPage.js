@@ -171,11 +171,21 @@ class GalleryPage {
           //    <p class="tag">${item.tags[0]}</p>
        //   </div>`;
 
-          HTML += `<div class="card" data-tags="${dataTags}">
-              <img class="image" src="../.${path}" alt="${item.alt}">
-              <a class="title" href="${item.href}">${item.title}</a>
+       HTML += `<div class="card hover-text-one" data-tags="${dataTags}">
+       <figure class="effect-text-three">
+             <img class="image" src="../.${path}" alt="${item.alt}">
+             <figcaption>
+                 <a class="link"  href="${item.href}">${item.title}</a>
+                 <p class="tag">${item.tags[0]}</p>
+             </figcaption>
+       </figure>
+     </div>`;
+
+        //  HTML += `<div class="card" data-tags="${dataTags}">
+         //     <img class="image" src="../.${path}" alt="${item.alt}">
+         //     <a class="title" href="${item.href}">${item.title}</a>
               
-          </div>`;
+        //  </div>`;
       }
   
       return HTML;

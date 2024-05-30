@@ -37,6 +37,7 @@
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 10px;  
+
 }
 
 .gallery > .gallery-content > .card.hide {
@@ -48,24 +49,145 @@
     transform: scale(1.05);
 }
 
-.gallery > .gallery-content > .card > .image {
+.hover-text-one {
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+
+.image {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 
-.gallery > .gallery-content > .card > .title {
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+ .tag {
     padding: 0 1em;
-    font-size: 20px;
+    
+    margin-top: 2em;
+    font-size: 1em;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    
 }
 
-.gallery > .gallery-content > .card > .title:hover {}
 
-.gallery > .gallery-content > .card > .tag {
-    padding: 0 1em;
-    margin: 0;
+figure.effect-text-three {
+	background: #0e0f66;
 }
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+
+
+
+.hover-text-one figure a span {
+	font-weight: 800;
+}
+
+
+figure.effect-text-three a,
+figure.effect-text-three p {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+    
+}
+figure.effect-text-three a::after,
+figure.effect-text-three p::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover a::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p, 
+figure.effect-text-three a{
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p,
+figure.effect-text-three:hover a {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+     
+
 
 @media (min-width:800px) {
     .gallery > .gallery-content {
