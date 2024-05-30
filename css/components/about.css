@@ -85,6 +85,86 @@
     animation: anim-ramka 4s linear infinite;
 }
 
+
+
+.hover-effect-btn {
+    position: relative;
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  height: 100%;
+    background: rgba(45, 50, 121, 0); /* Настройка цвета и прозрачности для блока с заголовком */
+    transition: background 0.5s ease;
+  }
+  .hover-effect-btn:hover .overlay {
+    display: block;
+    background: rgba(41, 31, 134, 0.6); /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+  }
+  .atitle {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 25%; /* Отступ сверху */
+    font-size: 2.5em; /* Размер текста заголовка */
+    text-align: center;
+    text-transform: uppercase; /* Заглавные буквы */
+    color: white; /* Цвет заголовка */
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  .hover-effect-btn:hover .atitle {
+    top: 10%; /* Отступ сверху при наведении */
+  }
+
+
+  .abutton {
+    position: absolute;
+    width: 100%;
+    top: 65%; /* Отступ сверху */
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    padding: 15px 40px; /* Отступ */
+    text-align: center;
+    font-size: 2em;
+    color: white; /* Цвет текста */
+    z-index: 1; 
+    text-decoration: none;
+  }
+ 
+
+  .abutton::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: scale(0.1, 1);
+    cursor: pointer;
+    
+  }
+  .ab {
+    padding: 15px 40px; /* Отступ */
+    text-align: center;
+    font-size: 2em;
+    color: white; /* Цвет текста */
+    z-index: 1; 
+    text-decoration: none;
+  }
+
+  .hover-effect-btn:hover .abutton {
+    opacity: 1;
+  }
+ 
+
 @keyframes anim-ramka {
     0% {
         transform: scaleX(0);
