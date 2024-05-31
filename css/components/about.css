@@ -18,7 +18,7 @@
 }
 
 .about-title>a {
-    
+
     text-transform: uppercase;
     text-decoration: none;
 
@@ -90,54 +90,68 @@
 .hover-effect-btn {
     position: relative;
     width: 100%;
-  }
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-  height: 100%;
-    background: rgba(45, 50, 121, 0); /* Настройка цвета и прозрачности для блока с заголовком */
+    height: 100%;
+    background: rgba(45, 50, 121, 0);
+    /* Настройка цвета и прозрачности для блока с заголовком */
     transition: background 0.5s ease;
-  }
-  .hover-effect-btn:hover .overlay {
+}
+
+.hover-effect-btn:hover .overlay {
     display: block;
-    background: rgba(41, 31, 134, 0.6); /* Настройка цвета и прозрачности для блока с заголовком при наведении */
-  }
-  .atitle {
+    background: rgba(41, 31, 134, 0.6);
+    /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+}
+
+.atitle {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 25%; /* Отступ сверху */
-    font-size: 2.5em; /* Размер текста заголовка */
+    top: 25%;
+    /* Отступ сверху */
+    font-size: 2.5em;
+    /* Размер текста заголовка */
     text-align: center;
-    text-transform: uppercase; /* Заглавные буквы */
-    color: white; /* Цвет заголовка */
+    text-transform: uppercase;
+    /* Заглавные буквы */
+    color: white;
+    /* Цвет заголовка */
     z-index: 1;
     transition: top .5s ease;
-  }
-  .hover-effect-btn:hover .atitle {
-    top: 10%; /* Отступ сверху при наведении */
-  }
+}
+
+.hover-effect-btn:hover .atitle {
+    top: 10%;
+    /* Отступ сверху при наведении */
+}
 
 
-  .abutton {
+.abutton {
     position: absolute;
     width: 100%;
-    top: 65%; /* Отступ сверху */
+    top: 65%;
+    /* Отступ сверху */
     text-align: center;
     opacity: 0;
     transition: opacity .35s ease;
-    padding: 15px 40px; /* Отступ */
+    padding: 15px 40px;
+    /* Отступ */
     text-align: center;
     font-size: 2em;
-    color: white; /* Цвет текста */
-    z-index: 1; 
+    color: white;
+    /* Цвет текста */
+    z-index: 1;
     text-decoration: none;
-  }
- 
+}
 
-  .abutton::before {
+
+.abutton::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -149,21 +163,24 @@
     transition: all 0.3s;
     transform: scale(0.1, 1);
     cursor: pointer;
-    
-  }
-  .ab {
-    padding: 15px 40px; /* Отступ */
+
+}
+
+.ab {
+    padding: 15px 40px;
+    /* Отступ */
     text-align: center;
     font-size: 2em;
-    color: white; /* Цвет текста */
-    z-index: 1; 
+    color: white;
+    /* Цвет текста */
+    z-index: 1;
     text-decoration: none;
-  }
+}
 
-  .hover-effect-btn:hover .abutton {
+.hover-effect-btn:hover .abutton {
     opacity: 1;
-  }
- 
+}
+
 
 @keyframes anim-ramka {
     0% {
@@ -188,20 +205,51 @@
 }
 
 
-.about .about-key {
+.about-key {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--dark-color);
     font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
 
+.about-key::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--dark-color);
 }
 
 .about .keybox {
- align-items: center;   
+    align-items: center;
 
 }
 
 .about .keybox-item {
-    line-height: 2em;
+    line-height: 2;
 }
 
+.about .keybox2 {
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+
+}
+
+.about .keybox2-item {
+    line-height: 3;
+}
 
 .about .about-service {
     font-size: 18px;
