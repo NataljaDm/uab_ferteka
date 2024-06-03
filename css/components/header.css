@@ -1,5 +1,5 @@
 header {
-    background-image: url('../../img/10.jpg');
+    background-image: url('../../img/100.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -117,7 +117,7 @@ position: fixed;
 
 @media (max-width: 2600px) {
     header {
-        background-image: url('../../img/10.jpg');
+        background-image: url('../../img/100.jpg');
         background-size: contain;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -127,7 +127,7 @@ position: fixed;
 
 @media (max-width: 1800px) {
     header {
-        background-image: url('../../img/10.jpg');
+        background-image: url('../../img/100.jpg');
         background-size: contain;
         background-repeat: no-repeat;
         background-size: 100% 100%;
