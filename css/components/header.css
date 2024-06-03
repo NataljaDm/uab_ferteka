@@ -11,12 +11,15 @@ header {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     z-index: 100;
 }
-.header_fixed {
-    position: fixed;
+.header-line {
+background-color: #0A0C18;
+position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 3;
 }
+
 
 .header>.row {
     margin-top: 0;
