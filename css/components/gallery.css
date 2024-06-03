@@ -21,7 +21,7 @@
 
 .gallery > .filter > .option:hover,
 .gallery > .filter > .option.active {
-    background-color: blue;
+    background-color: var(--logo-color);
     color: #fff;
 }
 

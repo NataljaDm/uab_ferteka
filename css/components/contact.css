@@ -61,7 +61,7 @@
     display: inline-block;
     width: 100%;
     margin-bottom: 1rem;
-    font-size:20px;
+    font-size:22px;
     text-decoration: none;
     text-transform: uppercase;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -78,12 +78,15 @@
     height: 300px;
 }
 
-
-
-
 .contact-info {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style: none;
     font-size: 20px;
    line-height: 2;
+}
+
+.bank {
+    text-decoration: underline;
+    font-size: 22px;
+
 }

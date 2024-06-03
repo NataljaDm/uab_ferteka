@@ -40,15 +40,15 @@ body {
 }
 
 .bg-main {
-    background: linear-gradient(to top, var(--light-grey-color), #558CB1);
+    background: linear-gradient(to top, var(--light-grey-color), #558cb19d);
     
 }
 .bg-main-main {
-    background: linear-gradient(to bottom, var(--light-grey-color), #558CB1);
+    background: linear-gradient(to bottom, var(--light-grey-color), #558cb19d);
     
 }
 .bg-main-dark {
-    background: linear-gradient(to bottom, #558CB1, var(--dark-color));
+    background: linear-gradient(to bottom, #558cb19d, var(--dark-color));
     
 }
 .bg-dark {
