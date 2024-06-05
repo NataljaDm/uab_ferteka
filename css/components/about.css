@@ -102,7 +102,7 @@
 
 .hover-effect-btn:hover .overlay {
     display: block;
-    background: rgba(41, 31, 134, 0.6);
+    background: rgba(17, 33, 74, 0.6);
     /* Настройка цвета и прозрачности для блока с заголовком при наведении */
 }
 

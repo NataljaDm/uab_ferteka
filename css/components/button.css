@@ -60,7 +60,7 @@
   left: 0;
   z-index: 1;
   transition: all 0.3s;
-  border: 3px solid rgba(80, 65, 218, 0.5);
+  border: 3px solid rgba(17, 33, 74, 0.6);
   cursor: pointer;
 }
 

@@ -21,7 +21,7 @@
 
 .gallery > .filter > .option:hover,
 .gallery > .filter > .option.active {
-    background-color: var(--logo-color);
+    background-color: #11214A;
     color: #fff;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .gallery > .gallery-content > .card:hover {
-     box-shadow: #291f86 0 -6px 8px inset;
+     box-shadow: #11214A 0 -6px 8px inset;
     transform: scale(1.05);
 }
 
@@ -102,8 +102,6 @@
 
 
 
-
-
  .tag {
     padding: 0 1em;
     
@@ -119,7 +117,7 @@
 
 
 figure.effect-text-three {
-	background: #0e0f66;
+	background: #11214A;
 }
 figure.effect-text-three img {
 	width: -webkit-calc(100% + 20px);

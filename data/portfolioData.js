@@ -20,7 +20,7 @@ const portfolioData = {
         {
             img: 'orlen.jpg',
             alt: 'orlen',
-            title: 'ORLEN',
+            title: 'ORLEN Lietuva',
             href: '#',
             tags: ['Industrial project'],
         },
