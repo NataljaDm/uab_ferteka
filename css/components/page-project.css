@@ -1,0 +1,48 @@
+
+
+/*page css*/
+
+.page-project-title {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size:32px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .project-line {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size:22px;
+    
+    
+ }
+
+.project-info {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    font-size: 20px;
+   line-height: 2;
+}
+
+.project-info span {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.project-foto {
+    width: 400px;
+    height: 200px;
+}
+.foto-project {
+    width: 200px;
+    height: 400px;
+}
+.foto-project {
+    width: 200px;
+    height: 350px;
+}

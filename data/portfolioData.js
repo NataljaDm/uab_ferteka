@@ -14,7 +14,7 @@ const portfolioData = {
             img: 'par13.png',
             alt: 'Mercury data center',
             title: 'Mercury',
-            href: '#',
+            href: '../slides/projects-slides/page-mercury/mercury.html',
             tags: ['Data center'],
         },
         {

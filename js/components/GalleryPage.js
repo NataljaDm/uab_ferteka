@@ -175,7 +175,7 @@ class GalleryPage {
        <figure class="effect-text-three">
              <img class="image" src="../.${path}" alt="${item.alt}">
              <figcaption>
-                 <a class="link"  href="${item.href}">${item.title}</a>
+                 <a class="link"  href="../${item.href}">${item.title}</a>
                  <p class="tag">${item.tags[0]}</p>
              </figcaption>
        </figure>
