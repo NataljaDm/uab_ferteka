@@ -27,7 +27,7 @@ const portfolioData = {
         {
             img: 'ltg.png',
             alt: 'Lietuvos gelezinkeliai',
-            title: 'LTG',
+            title: 'LTG Link',
             href: '#',
             tags: ['Industrial project'],
         },
