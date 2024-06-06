@@ -1,32 +1,30 @@
-
-
 /*page css*/
 
 .page-project-title {
     display: inline-block;
     width: 100%;
     margin-bottom: 2rem;
-    font-size:32px;
+    font-size: 32px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
- .project-line {
+.project-line {
     display: inline-block;
     width: 100%;
     margin-bottom: 1rem;
-    font-size:22px;
-    
-    
- }
+    font-size: 22px;
+
+
+}
 
 .project-info {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style: none;
     font-size: 20px;
-   line-height: 2;
+    line-height: 2;
 }
 
 .project-info span {
@@ -34,15 +32,51 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .project-foto {
+
     width: 400px;
     height: 200px;
 }
+
 .foto-project {
-    width: 200px;
-    height: 400px;
-}
-.foto-project {
+
     width: 200px;
     height: 350px;
+}
+
+
+.projects {
+    display: grid;
+    gap: 5px;
+}
+
+.projects>.project {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 10px;
+}
+
+.project2 {
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (min-width:768px) {
+    .projects {
+        grid-template-columns: 400px;
+    }
+}
+
+@media (min-width:995px) {
+    .projects {
+        grid-template-columns: 400px 400px;
+    }
+}
+
+@media (min-width:1250px) {
+    .projects {
+        grid-template-columns: 400px 400px 400px;
+    }
 }
