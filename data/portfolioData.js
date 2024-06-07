@@ -45,13 +45,7 @@ const portfolioData = {
             href: '../slides/projects-slides/page-apartment/apartment.html',
             tags: ['Residential building project'],
         },
-        {
-            img: 'orion.jpg',
-            alt: 'Apartment complex',
-            title: 'Orion apartment complex',
-            href: '../slides/projects-slides/page-orion/orion.html',
-            tags: ['Residential building project'],
-        },
+        
         {
             img: 'vessel.jpg',
             alt: 'Costa Smeralda',
@@ -59,25 +53,19 @@ const portfolioData = {
             href: '../slides/projects-slides/page-smeralda/smeralda.html',
             tags: ['Shipbuilding'],
         },
-        {
-            img: 'preschool.jpg',
-            alt: 'Preschool',
-            title: 'Preschool',
-            href: '../slides/projects-slides/page-preschool/preschool.html',
-            tags: ['Residential building project'],
-        },
+       
         {
             img: 'cruise.png',
             alt: 'cruise vessel',
             title: 'Global',
-            href: '#',
+            href: '../slides/projects-slides/page-global/global.html',
             tags: ['Shipbuilding'],
         },
         {
-            img: 'mission.png',
+            img: 'dawn.jpg',
             alt: 'Mission ship Dawn',
             title: 'Mission ship Dawn',
-            href: '#',
+            href: '../slides/projects-slides/page-dawn/dawn.html',
             tags: ['Shipbuilding'],
         },
         {
@@ -87,13 +75,7 @@ const portfolioData = {
             href: '#',
             tags: ['Shipbuilding'],
         },
-        {
-            img: 'costa.png',
-            alt: 'cruise vessel',
-            title: 'Costa Smeralda',
-            href: '#',
-            tags: ['Shipbuilding'],
-        },
+        
         {
             img: 'ritz.png',
             alt: 'cruise vessel',
