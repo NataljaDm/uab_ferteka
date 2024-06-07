@@ -21,14 +21,14 @@ const portfolioData = {
             img: 'orlen.jpg',
             alt: 'orlen',
             title: 'ORLEN Lietuva',
-            href: '#',
+            href: '../slides/projects-slides/page-orlen/orlen.html',
             tags: ['Industrial project'],
         },
         {
             img: 'ltg.png',
             alt: 'Lietuvos gelezinkeliai',
             title: 'LTG Link',
-            href: '#',
+            href: '../slides/projects-slides/page-ltg/ltg.html',
             tags: ['Industrial project'],
         },
         {

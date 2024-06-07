@@ -3,8 +3,19 @@
 .page-project-title {
     display: inline-block;
     width: 100%;
+    
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-project-title2 {
+    display: inline-block;
+    width: 100%;
     margin-bottom: 2rem;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -14,8 +25,9 @@
 .project-line {
     display: inline-block;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 22px;
+    
 
 
 }
