@@ -72,7 +72,7 @@ const portfolioData = {
             img: 'endeavor.png',
             alt: 'ice-class yacht',
             title: 'Endeavor',
-            href: '#',
+            href: '../slides/projects-slides/page-endeavor/endeavor.html',
             tags: ['Shipbuilding'],
         },
         
