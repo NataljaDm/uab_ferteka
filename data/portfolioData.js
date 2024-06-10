@@ -101,14 +101,14 @@ const portfolioData = {
             img: 'jewel.png',
             alt: 'cruise vessel',
             title: 'Norwegian Jewel',
-            href: '#',
+            href: '../slides/projects-slides/page-norwegian/norwegian.html',
             tags: ['Shipbuilding'],
         },
-        {
-            img: 'schiff.png',
+         {
+            img: 'star.png',
             alt: 'cruise vessel',
-            title: 'Mein Schiff1',
-            href: '#',
+            title: 'Norwegian Star',
+            href: '../slides/projects-slides/page-norwegian-star/norwegian-star.html',
             tags: ['Shipbuilding'],
         },
         {
@@ -119,9 +119,9 @@ const portfolioData = {
             tags: ['Shipbuilding'],
         },
         {
-            img: 'star.png',
+            img: 'schiff.png',
             alt: 'cruise vessel',
-            title: 'Norvegian Star',
+            title: 'Mein Schiff1',
             href: '#',
             tags: ['Shipbuilding'],
         },
