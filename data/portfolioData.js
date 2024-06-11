@@ -121,14 +121,14 @@ const portfolioData = {
             img: 'mein.png',
             alt: 'cruise vessel',
             title: 'Mein Schiff2',
-            href: '#',
+            href: '../slides/projects-slides/page-schiff2/schiff2.html',
             tags: ['Shipbuilding'],
         },
         {
             img: 'schiff.png',
             alt: 'cruise vessel',
             title: 'Mein Schiff1',
-            href: '#',
+            href: '../slides/projects-slides/page-schiff1/schiff1.html',
             tags: ['Shipbuilding'],
         },
         {
