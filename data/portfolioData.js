@@ -135,24 +135,23 @@ const portfolioData = {
             img: 'yevgeny.png',
             alt: 'icebreaking tanker',
             title: 'Yevgeny Primakov',
-            href: '#',
+            href: '../slides/projects-slides/page-yevgeny/yevgeny.html',
             tags: ['Shipbuilding'],
         },
         {
             img: 'fedor.png',
             alt: 'icebreaking tanker',
             title: 'Fedor Ushakov',
-            href: '#',
+            href: '../slides/projects-slides/page-fedor/fedor.html',
             tags: ['Shipbuilding'],
         },  
         {
             img: 'stepan.png',
             alt: 'icebreaking tanker',
             title: 'Stepan Makarov',
-            href: '#',
+            href: '../slides/projects-slides/page-stepan/stepan.html',
             tags: ['Shipbuilding'],
         },            
-        
     ]
 };
 
