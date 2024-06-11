@@ -60,13 +60,7 @@ const portfolioData = {
             href: '../slides/projects-slides/page-mardi/mardi.html',
             tags: ['Shipbuilding'],
         },
-        {
-            img: 'cruise.png',
-            alt: 'cruise vessel',
-            title: 'Global',
-            href: '../slides/projects-slides/page-global/global.html',
-            tags: ['Shipbuilding'],
-        },
+        
         {
             img: 'dawn.jpg',
             alt: 'Mission ship Dawn',
@@ -81,7 +75,13 @@ const portfolioData = {
             href: '../slides/projects-slides/page-endeavor/endeavor.html',
             tags: ['Shipbuilding'],
         },
-        
+        {
+            img: 'cruise.png',
+            alt: 'cruise vessel',
+            title: 'Global',
+            href: '../slides/projects-slides/page-global/global.html',
+            tags: ['Shipbuilding'],
+        },
         {
             img: 'ritz.png',
             alt: 'cruise vessel',
