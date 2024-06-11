@@ -3,7 +3,6 @@
 .page-project-title {
     display: inline-block;
     width: 100%;
-    
     font-size: 34px;
     font-weight: bold;
     text-decoration: none;
@@ -93,6 +92,7 @@
     gap: 15px;
     margin-left: 40px;
 }
+
 .project-foto-mardi {
     width: 450px;
     height: 270px;

@@ -47,8 +47,8 @@
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #443F3F;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    background-color: #11214A;
+    box-shadow: 1px 0px 6px rgba(17, 33, 74, 0.6);
     transition-duration: .25s;
     z-index: 3;
 }
