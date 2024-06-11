@@ -43,29 +43,40 @@
 }
 
 .project-foto {
-
     width: 400px;
     height: 200px;
 }
 
 .foto-project {
-
     width: 200px;
     height: 350px;
 }
-.project-foto1 {
 
+.project-foto1 {
     width: 500px;
     height: 300px;
     margin: 1rem;
-    
 }
 .project-foto_costa {
-
     width: 450px;
     height: 270px;
     margin: 1rem;
+}
+.projects>.project-mardi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-left: 40px;
+}
+.project-foto-mardi {
+    width: 450px;
+    height: 270px;
     
+}
+
+.foto-project-mardi {
+    width: 200px;
+    height: 300px;
 }
 
 .projects {
@@ -82,9 +93,10 @@
     display: grid;
     grid-template-columns: 450px 450px 450px;
     gap: 15px;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
+
+
 .project2 {
     display: flex;
     gap: 10px;

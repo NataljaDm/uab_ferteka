@@ -53,7 +53,13 @@ const portfolioData = {
             href: '../slides/projects-slides/page-smeralda/smeralda.html',
             tags: ['Shipbuilding'],
         },
-       
+        {
+            img: 'mardi.jpg',
+            alt: 'cruise vessel',
+            title: 'Mardi Gras',
+            href: '../slides/projects-slides/page-mardi/mardi.html',
+            tags: ['Shipbuilding'],
+        },
         {
             img: 'cruise.png',
             alt: 'cruise vessel',
