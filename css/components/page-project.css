@@ -204,7 +204,29 @@
 
 /*orlen page end*/
 
+/*ltg page start*/
+@media (min-width:350px) {
+    .project-foto-ltg {
+        width: 300px;
+        height: 200px;
+    }
+}
 
+@media (min-width:768px) {
+    .project-foto-ltg {
+        width: 420px;
+        height: 310px;
+    }
+}
+
+@media (min-width:1200px) {
+    .project-foto-ltg {
+        width: 520px;
+        height: 370px;
+    }
+}
+
+/*ltg page end*/
 
 .projects {
     display: grid;
