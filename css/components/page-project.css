@@ -309,6 +309,71 @@
 
 /*shackleton page end*/
 
+/*sweden page start*/
+
+@media (min-width:350px) {
+    .project-sweden {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .project-foto-sweden {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-foto-sweden {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-sweden {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+        gap: 1rem;
+    }
+}
+
+@media (min-width:992px) {
+    .project-sweden {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+        gap: 5rem;
+    }
+}
+@media (min-width:1200px) {
+    .project-sweden {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-left: 0;
+    }
+    .project-foto-sweden {
+        width: 450px;
+        height: 280px;
+    } 
+    
+}
+@media (min-width:1350px) {
+    .project-sweden {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+    }
+    
+    .project-foto-sweden {
+        width: 500px;
+        height: 300px;
+    } 
+}
+
+/*sweden page end*/
 
 .projects {
     display: grid;
