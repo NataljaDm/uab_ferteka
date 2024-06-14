@@ -41,14 +41,142 @@
     font-weight: bold;
 }
 
+/*mercury page start*/
+
+.projects-mercury {
+    display: grid;
+}
+.project-mercury {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px;
+}
+.project2-mercury {
+    display: flex;
+    gap: 10px;
+    margin-left: 28rem;
+}
+.project-foto-mercury {
+    width: 400px;
+    height: 200px;
+}
+.foto-project-mercury {
+    width: 200px;
+    height: 350px;
+}
+
+@media (min-width:350px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+    .project-foto-mercury {
+        width: 300px;
+        height: 150px;
+    }
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:576px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 10px;
+        margin-left: 0;
+    }
+    .project-foto-mercury {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 10px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:992px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        gap: 10px;
+    }
+}
+
+@media (min-width:1150px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        gap: 10px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        gap: 10px;
+    }
+    .project-foto-mercury {
+        width: 380px;
+        height: 200px;
+    }
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 10px;
+        margin-left: 20rem;
+    }
+    .foto-project-mercury {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (min-width:1400px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 10px;
+    }
+    .project-foto-mercury {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+/*mercury end*/
+
+
+
 .projects {
     display: grid;
     gap: 5px;
 }
 
-.projects>.project {
+.project {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: repeat(3, 400px);
     gap: 10px;
 }
 
@@ -60,8 +188,9 @@
 
 .project3 {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    margin-left: 10rem;
+
 }
 
 .project4 {
@@ -107,30 +236,11 @@
     display: grid;
     grid-template-columns: 450px 450px 450px;
     gap: 15px;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .project-foto_costa {
     width: 450px;
     height: 270px;
     margin: 1rem;
-}
-
-
-@media (min-width:768px) {
-    .projects {
-        grid-template-columns: 400px;
-    }
-}
-
-@media (min-width:995px) {
-    .projects {
-        grid-template-columns: 400px 400px;
-    }
-}
-
-@media (min-width:1250px) {
-    .projects {
-        grid-template-columns: 400px 400px 400px;
-    }
 }

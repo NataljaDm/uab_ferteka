@@ -143,3 +143,24 @@ position: fixed;
         background-position: center;
      }
 }*/
+
+@media (max-width: 560px) {
+    header {
+        background-image: url('../../img/100.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .header-title {
+        font-size: 1.5em;
+        color: var(--light-grey-color);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-weight: bolder;
+        text-transform: uppercase;
+        word-spacing: 0.8em;
+        letter-spacing: 0.08em;
+    }
+}
