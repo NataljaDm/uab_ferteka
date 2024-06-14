@@ -61,7 +61,7 @@
 
 .project-foto-mercury {
     width: 400px;
-    height: 200px;
+    height: 240px;
 }
 
 .foto-project-mercury {
@@ -78,7 +78,7 @@
 
     .project-foto-mercury {
         width: 300px;
-        height: 150px;
+        height: 180px;
     }
 
     .project2-mercury {
@@ -105,7 +105,7 @@
 
     .project-foto-mercury {
         width: 400px;
-        height: 200px;
+        height: 240px;
     }
 }
 
@@ -149,7 +149,7 @@
 
     .project-foto-mercury {
         width: 380px;
-        height: 200px;
+        height: 220px;
     }
 
     .project2-mercury {
@@ -174,7 +174,7 @@
 
     .project-foto-mercury {
         width: 400px;
-        height: 200px;
+        height: 240px;
     }
 }
 
@@ -252,9 +252,7 @@
     .project-foto-shackleton {
         width: 250px;
         height: 150px;
-
     }
-
 }
 
 @media (min-width:576px) {
@@ -290,7 +288,6 @@
     .project-foto-shackleton {
         width: 500px;
         height: 300px;
-        
     }
 }
 @media (min-width:1300px) {
@@ -303,7 +300,6 @@
     .project-foto-shackleton {
         width: 500px;
         height: 300px;
-       
     } 
 }
 
@@ -374,6 +370,118 @@
 }
 
 /*sweden page end*/
+
+
+/*costa page start*/
+.projects-costa {
+    display: grid;
+}
+.project-costa {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.project-foto-costa {
+    width: 400px;
+    height: 240px;
+}
+
+@media (min-width:350px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+
+    .project-foto-costa {
+        width: 300px;
+        height: 150px;
+    }
+
+}
+
+@media (min-width:576px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    
+
+    .project-foto-costa {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+}
+@media (min-width:850px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        
+        
+
+    }
+}
+@media (min-width:1000px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: repeat(2, 420px);
+        
+        margin-left: 8rem;
+
+    }
+}
+
+@media (min-width:1150px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-costa{
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        margin-left: 2rem;
+    }
+
+    .project-foto-costa {
+        width: 380px;
+        height: 220px;
+    }
+
+   
+}
+
+@media (min-width:1400px) {
+    .project-costa {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        margin-left: 8rem;
+    }
+
+    .project-foto-costa {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+/*costa page end*/
 
 .projects {
     display: grid;
