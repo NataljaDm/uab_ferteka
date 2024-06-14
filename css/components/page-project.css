@@ -46,20 +46,24 @@
 .projects-mercury {
     display: grid;
 }
+
 .project-mercury {
     display: grid;
     grid-template-columns: repeat(3, 400px);
     gap: 10px;
 }
+
 .project2-mercury {
     display: flex;
     gap: 10px;
     margin-left: 28rem;
 }
+
 .project-foto-mercury {
     width: 400px;
     height: 200px;
 }
+
 .foto-project-mercury {
     width: 200px;
     height: 350px;
@@ -71,10 +75,12 @@
         grid-template-columns: 350px;
         gap: 10px;
     }
+
     .project-foto-mercury {
         width: 300px;
         height: 150px;
     }
+
     .project2-mercury {
         display: grid;
         grid-template-columns: 350px;
@@ -89,12 +95,14 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .project2-mercury {
         display: grid;
         grid-template-columns: 200px 200px;
         gap: 10px;
         margin-left: 0;
     }
+
     .project-foto-mercury {
         width: 400px;
         height: 200px;
@@ -107,6 +115,7 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .project2-mercury {
         display: grid;
         grid-template-columns: 200px 200px;
@@ -137,16 +146,19 @@
         grid-template-columns: repeat(3, 380px);
         gap: 10px;
     }
+
     .project-foto-mercury {
         width: 380px;
         height: 200px;
     }
+
     .project2-mercury {
         display: grid;
         grid-template-columns: 250px 250px;
         gap: 10px;
         margin-left: 20rem;
     }
+
     .foto-project-mercury {
         width: 250px;
         height: 350px;
@@ -159,6 +171,7 @@
         grid-template-columns: repeat(3, 400px);
         gap: 10px;
     }
+
     .project-foto-mercury {
         width: 400px;
         height: 200px;
@@ -166,6 +179,30 @@
 }
 
 /*mercury end*/
+
+/*orlen page start*/
+@media (min-width:350px) {
+    .project-foto-orlen {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-orlen {
+        width: 400px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-orlen {
+        width: 500px;
+        height: 380px;
+    }
+}
+
+/*orlen page end*/
 
 
 
