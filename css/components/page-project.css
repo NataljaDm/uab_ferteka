@@ -278,29 +278,31 @@
         margin-left: 10rem;
     }
 }
+
 @media (min-width:1200px) {
     .project-shackleton {
         display: flex;
         gap: 10px;
         margin-left: 10rem;
     }
-    
+
     .project-foto-shackleton {
         width: 500px;
         height: 300px;
     }
 }
+
 @media (min-width:1300px) {
     .project-shackleton {
         display: flex;
         gap: 10px;
         margin-left: 13rem;
     }
-    
+
     .project-foto-shackleton {
         width: 500px;
         height: 300px;
-    } 
+    }
 }
 
 /*shackleton page end*/
@@ -343,6 +345,7 @@
         gap: 5rem;
     }
 }
+
 @media (min-width:1200px) {
     .project-sweden {
         display: grid;
@@ -350,23 +353,25 @@
         gap: 10px;
         margin-left: 0;
     }
+
     .project-foto-sweden {
         width: 450px;
         height: 280px;
-    } 
-    
+    }
+
 }
+
 @media (min-width:1350px) {
     .project-sweden {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left: 0;
     }
-    
+
     .project-foto-sweden {
         width: 500px;
         height: 300px;
-    } 
+    }
 }
 
 /*sweden page end*/
@@ -376,6 +381,7 @@
 .projects-costa {
     display: grid;
 }
+
 .project-costa {
     display: grid;
     grid-template-columns: repeat(3, 450px);
@@ -399,7 +405,6 @@
         width: 300px;
         height: 150px;
     }
-
 }
 
 @media (min-width:576px) {
@@ -408,8 +413,6 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
-
-    
 
     .project-foto-costa {
         width: 400px;
@@ -425,22 +428,19 @@
     }
 
 }
+
 @media (min-width:850px) {
     .project-costa {
         display: grid;
         grid-template-columns: repeat(2, 400px);
-        
-        
-
     }
 }
+
 @media (min-width:1000px) {
     .project-costa {
         display: grid;
         grid-template-columns: repeat(2, 420px);
-        
         margin-left: 8rem;
-
     }
 }
 
@@ -448,13 +448,12 @@
     .project-costa {
         display: grid;
         grid-template-columns: repeat(2, 450px);
-        
         margin-left: 8rem;
     }
 }
 
 @media (min-width:1300px) {
-    .project-costa{
+    .project-costa {
         display: grid;
         grid-template-columns: repeat(3, 380px);
         margin-left: 2rem;
@@ -464,8 +463,6 @@
         width: 380px;
         height: 220px;
     }
-
-   
 }
 
 @media (min-width:1400px) {
@@ -482,6 +479,105 @@
 }
 
 /*costa page end*/
+
+/*mardi page start*/
+.projects-mardi {
+    display: grid;
+}
+
+.project-mardi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+@media (min-width:350px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+
+    .project-foto-mardi {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .project-foto-mardi {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width:850px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media (min-width:1000px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: repeat(2, 420px);
+        margin-left: 6rem;
+    }
+}
+
+@media (min-width:1110px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        margin-left: 3rem;
+        justify-items: center;
+    }
+
+    .project-foto-mardi {
+        width: 370px;
+        height: 200px;
+    }
+}
+
+@media (min-width:1500px) {
+    .project-mardi {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        margin-left: 40px;
+    }
+
+    .project-foto-mardi {
+        width: 450px;
+        height: 270px;
+    }
+}
+
+/*mardi page end*/
 
 .projects {
     display: grid;
@@ -529,32 +625,3 @@
     margin: 1rem;
 }
 
-.projects>.project-mardi {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    margin-left: 40px;
-}
-
-.project-foto-mardi {
-    width: 450px;
-    height: 270px;
-}
-
-.foto-project-mardi {
-    width: 200px;
-    height: 300px;
-}
-
-.projects>.project_costa {
-    display: grid;
-    grid-template-columns: 450px 450px 450px;
-    gap: 15px;
-    margin-left: 20px;
-}
-
-.project-foto_costa {
-    width: 450px;
-    height: 270px;
-    margin: 1rem;
-}
