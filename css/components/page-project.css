@@ -578,6 +578,89 @@
 }
 
 /*mardi page end*/
+/*dawn page start*/
+.project-dawn {
+    display: flex;
+    gap: 10px;
+    margin-left: 15rem;
+}
+
+.project-foto-dawn {
+    width: 500px;
+    height: 300px;
+    margin: 1rem;
+}
+
+@media (min-width:350px) {
+    .project-dawn {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .project-foto-dawn {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-foto-dawn {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-dawn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:992px) {
+    .project-dawn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .project-dawn {
+        display: flex;
+        gap: 10px;
+        margin-left: 6rem;
+    }
+
+    .project-foto-dawn {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-dawn {
+        display: flex;
+        gap: 10px;
+        margin-left: 13rem;
+    }
+
+    .project-foto-dawn {
+        width: 500px;
+        height: 300px;
+    }
+}
+/*dawn page end*/
+/*endeavor page start*/
+
+/*endeavor page end*/
+/*global page start*/
+
+/*global page end*/
+
+
 
 .projects {
     display: grid;
