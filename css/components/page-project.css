@@ -183,21 +183,21 @@
 /*orlen page start*/
 @media (min-width:350px) {
     .project-foto-orlen {
-        width: 300px;
+        width: 330px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
     .project-foto-orlen {
-        width: 400px;
+        width: 500px;
         height: 290px;
     }
 }
 
 @media (min-width:1300px) {
     .project-foto-orlen {
-        width: 500px;
+        width: 600px;
         height: 380px;
     }
 }
@@ -375,8 +375,6 @@
 }
 
 /*sweden page end*/
-
-
 /*costa page start*/
 .projects-costa {
     display: grid;
@@ -426,7 +424,6 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
-
 }
 
 @media (min-width:850px) {
@@ -477,7 +474,6 @@
         height: 240px;
     }
 }
-
 /*costa page end*/
 
 /*mardi page start*/
@@ -576,7 +572,6 @@
         height: 270px;
     }
 }
-
 /*mardi page end*/
 /*dawn page start*/
 .project-dawn {
@@ -663,14 +658,14 @@
 
 @media (min-width:768px) {
     .project-foto-endeavor {
-        width: 400px;
+        width: 500px;
         height: 290px;
     }
 }
 
 @media (min-width:1300px) {
     .project-foto-endeavor {
-        width: 500px;
+        width: 600px;
         height: 380px;
     }
 }
@@ -678,21 +673,21 @@
 /*global page start*/
 @media (min-width:350px) {
     .project-foto-global {
-        width: 300px;
+        width: 330px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
     .project-foto-global {
-        width: 400px;
+        width: 500px;
         height: 290px;
     }
 }
 
 @media (min-width:1300px) {
     .project-foto-global {
-        width: 500px;
+        width: 600px;
         height: 380px;
     }
 }
@@ -701,21 +696,21 @@
 /*ritz-carlton page start*/
 @media (min-width:350px) {
     .project-foto-ritz {
-        width: 300px;
+        width: 330px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
     .project-foto-ritz {
-        width: 400px;
+        width: 500px;
         height: 290px;
     }
 }
 
 @media (min-width:1300px) {
     .project-foto-ritz {
-        width: 500px;
+        width: 600px;
         height: 380px;
     }
 }
@@ -723,25 +718,203 @@
 /*msc-grandiosa page start*/
 @media (min-width:350px) {
     .project-foto-grandiosa {
-        width: 300px;
+        width: 330px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
     .project-foto-grandiosa {
-        width: 400px;
-        height: 290px;
+        width: 480px;
+        height: 270px;
     }
 }
 
 @media (min-width:1300px) {
     .project-foto-grandiosa {
-        width: 500px;
-        height: 380px;
+        width: 600px;
+        height: 350px;
     }
 }
 /*msc-grandiosa page end*/
+
+/*yuriy-kuchiev page start*/
+@media (min-width:350px) {
+    .project-foto-yuriy {
+        width: 330px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-yuriy {
+        width: 450px;
+        height: 260px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-yuriy {
+        width: 600px;
+        height: 370px;
+    }
+}
+/*yuriy-kuchiev page end*/
+/*norwegian page start*/
+@media (min-width:350px) {
+    .project-foto-norwegian {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-norwegian {
+        width: 550px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-norwegian {
+        width: 700px;
+        height: 380px;
+    }
+}
+/*norwegian page end*/
+/*norwegian-star page start*/
+@media (min-width:350px) {
+    .project-foto-norwegian-star {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-norwegian-star {
+        width: 500px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-norwegian-star {
+        width: 650px;
+        height: 380px;
+    }
+}
+/*norwegian-star page end*/
+/*schiff2 page start*/
+@media (min-width:350px) {
+    .project-foto-schiff2 {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-schiff2 {
+        width: 500px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-schiff2 {
+        width: 650px;
+        height: 380px;
+    }
+}
+/*schiff2 page end*/
+/*schiff page start*/
+@media (min-width:350px) {
+    .project-foto-schiff {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-schiff {
+        width: 500px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-schiff {
+        width: 650px;
+        height: 380px;
+    }
+}
+/*schiff page end*/
+/*yevgeny page start*/
+@media (min-width:350px) {
+    .project-foto-yevgeny {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-yevgeny {
+        width: 500px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-yevgeny {
+        width: 650px;
+        height: 380px;
+    }
+}
+/*yevgeny page end*/
+/*fedor page start*/
+@media (min-width:350px) {
+    .project-foto-fedor {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-fedor {
+        width: 500px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-fedor {
+        width: 650px;
+        height: 380px;
+    }
+}
+/*fedor page end*/
+/*stepan page start*/
+@media (min-width:350px) {
+    .project-foto-stepan {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-foto-stepan {
+        width: 500px;
+        height: 290px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-foto-stepan {
+        width: 650px;
+        height: 380px;
+    }
+}
+/*stepan page end*/
+
 .projects {
     display: grid;
     gap: 5px;
@@ -753,38 +926,4 @@
     gap: 10px;
 }
 
-.project2 {
-    display: flex;
-    gap: 10px;
-    margin-left: 28rem;
-}
-
-.project3 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-
-}
-
-.project4 {
-    display: flex;
-    gap: 10px;
-    margin-left: 15rem;
-}
-
-.project-foto {
-    width: 400px;
-    height: 200px;
-}
-
-.foto-project {
-    width: 200px;
-    height: 350px;
-}
-
-.project-foto1 {
-    width: 500px;
-    height: 300px;
-    margin: 1rem;
-}
 
