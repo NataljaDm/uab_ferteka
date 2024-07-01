@@ -8,7 +8,7 @@ header {
 .header {
     padding-top: 0;
     padding-bottom: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:oswald;
     z-index: 100;
 }
 .header-line {
@@ -50,20 +50,24 @@ position: fixed;
 }
 
 .header-title {
-    font-size: 3.2em;
+    font-size: 3.7em;
     color: var(--light-grey-color);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: opensans;
     margin-top: 2em;
     margin-bottom: 0.5em;
     font-weight: bolder;
+    
     text-transform: uppercase;
-    word-spacing: 0.8em;
-    letter-spacing: 0.08em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.04em;
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
 
 .header .header-text {
+    font-family: opensans;
+    font-weight: 500;
+    font-style: italic;
     font-size: 20px;
     color: var(--light-grey-color);
     line-height: 2em;
@@ -155,12 +159,12 @@ position: fixed;
     .header-title {
         font-size: 1.5em;
         color: var(--light-grey-color);
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family:opensans;
         margin-top: 1em;
         margin-bottom: 0.5em;
-        font-weight: bolder;
+        font-weight: bold;
         text-transform: uppercase;
         word-spacing: 0.8em;
-        letter-spacing: 0.08em;
+        letter-spacing: 0.05em;
     }
 }

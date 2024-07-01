@@ -1,0 +1,40 @@
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/opensans/OpenSans-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/opensans/OpenSans-ExtraBold.woff);
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/opensans/OpenSans-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/opensans/OpenSans-ExtraBoldItalic.woff);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/opensans/OpenSans-Medium.woff);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/opensans/OpenSans-MediumItalic.woff);
+    font-weight: 500;
+    font-style: italic;
+}

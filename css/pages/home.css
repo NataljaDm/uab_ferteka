@@ -6,6 +6,11 @@
 
 /* vendors */
 @import '../vendor/et-line.css';
+@import '../vendor/bowlby-one.css';
+@import '../vendor/bona-nova-sc.css';
+@import '../vendor/oswald.css';
+@import '../vendor/opensans.css';
+
 
 /* components */
 @import '../components/burger.css';
