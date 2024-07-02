@@ -1,8 +1,6 @@
 .data {
     position: relative;
-   
     overflow: hidden;
-   
 }
 
 .data-about {
@@ -11,7 +9,6 @@
     position: relative;
     z-index: 2;
     text-align: center;
-    
 }
 
 .data-text {

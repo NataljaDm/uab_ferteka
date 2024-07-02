@@ -12,13 +12,13 @@
     width: 100%;
     margin-bottom: 20px;
     color: var(--dark-color);
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    
 }
 
 .contact::after {
@@ -40,12 +40,18 @@
     font-size:18px;
     text-decoration: none;
     text-align: center;
+    font-family: opensans;
+    font-weight: 500;
 }
 
 .contact-item {
   text-transform: uppercase;  
 }
-
+.contact-list {
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.02em;
+}
 /*page css*/
 
 .page-contact-title {
@@ -54,10 +60,10 @@
     margin-bottom: 4rem;
     font-size:32px;
     font-family: oswald;
+    font-style: italic;
     letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: uppercase;
-    
 }
 
  .h4-contact {
@@ -69,13 +75,6 @@
     font-family:oswald;
     letter-spacing: 0.02em;
  }
-
-.contact-title > .contact-list {
-    text-decoration: none;
-    list-style: none;
-    font-family:oswald;
-    letter-spacing: 0.02em;
-}
 
 .contact-foto {
     width: 500px;
@@ -93,5 +92,4 @@
 .bank {
     text-decoration: underline;
     font-size: 22px;
-
 }

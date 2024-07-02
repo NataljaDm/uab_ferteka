@@ -50,9 +50,9 @@ position: fixed;
 }
 
 .header-title {
-    font-size: 3.7em;
+    font-size: 3.3em;
     color: var(--light-grey-color);
-    font-family: opensans;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 2em;
     margin-bottom: 0.5em;
     font-weight: bolder;

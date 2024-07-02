@@ -82,8 +82,6 @@
     animation: anim-ramka 4s linear infinite;
 }
 
-
-
 .hover-effect-btn {
     position: relative;
     width: 100%;
@@ -208,6 +206,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     color: var(--dark-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -234,7 +233,9 @@
 }
 
 .about .keybox-item {
-    line-height: 2;
+    font-family: opensans;
+    font-weight: 500;
+    line-height: 1.6;
 }
 
 .about .keybox2 {
@@ -245,7 +246,9 @@
 }
 
 .about .keybox2-item {
-    line-height: 3;
+    font-family: opensans;
+    font-weight: 500;
+    line-height: 2.5;
 }
 
 .about .about-service {

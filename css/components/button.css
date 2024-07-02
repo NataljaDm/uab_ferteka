@@ -9,10 +9,11 @@
 .test {
   display: block;
   font-size: 24px;
-  font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-style: normal;
+  font-family:opensans;
   text-decoration: none;
-  color: #333;
+  color: #000000;
   border-top: 2px solid #333;
   border-bottom: 2px solid #333;
   padding: 10px;

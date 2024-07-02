@@ -4,6 +4,9 @@
 }
 
 .gallery > .filter {
+	font-family: opensans;
+	font-weight: bold;
+	font-style: normal;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -26,6 +29,7 @@
 }
 
 .gallery > .gallery-content {
+	font-family: Georgia, 'Times New Roman', Times, serif;
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
