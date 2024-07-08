@@ -375,6 +375,7 @@
 }
 
 /*sweden page end*/
+
 /*costa page start*/
 .projects-costa {
     display: grid;
@@ -694,27 +695,106 @@
 /*global page end*/
 
 /*ritz-carlton page start*/
+.projects-ritz {
+    display: grid;
+}
+
+.project-ritz {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.project-foto-ritz {
+    width: 400px;
+    height: 240px;
+}
+
 @media (min-width:350px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+
     .project-foto-ritz {
-        width: 330px;
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .project-foto-ritz {
+        width: 400px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
-    .project-foto-ritz {
-        width: 500px;
-        height: 290px;
+    .project-ritz {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width:850px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media (min-width:1000px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: repeat(2, 420px);
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:1150px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        margin-left: 8rem;
     }
 }
 
 @media (min-width:1300px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        margin-left: 2rem;
+    }
+
     .project-foto-ritz {
-        width: 600px;
-        height: 380px;
+        width: 380px;
+        height: 220px;
+    }
+}
+
+@media (min-width:1400px) {
+    .project-ritz {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        margin-left: 8rem;
+    }
+
+    .project-foto-ritz {
+        width: 400px;
+        height: 240px;
     }
 }
 /*ritz-carlton page end*/
+
 /*msc-grandiosa page start*/
 @media (min-width:350px) {
     .project-foto-grandiosa {
