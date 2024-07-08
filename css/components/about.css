@@ -23,7 +23,32 @@
 }
 
 /* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
-
+.page-about-text {
+    display: inline-block;
+        width: 95%;
+        margin-left: 3rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: var(--dark-color);
+        font-family: opensans;
+        font-weight: 300;
+        font-style: italic;
+        text-decoration: none;
+        text-align: justify;
+        line-height: 1.7;
+        text-indent: 3%;
+}
+.page-about-text-span {
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+.page-about-text-bspan {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: italic;
+}
 .about .about-text {
     font-size: 16px;
     color: #000000;
@@ -227,12 +252,12 @@
     background-color: var(--dark-color);
 }
 
-.about .keybox {
+.keybox {
     align-items: center;
 
 }
 
-.about .keybox-item {
+.keybox-item {
     font-family: opensans;
     font-weight: 500;
     line-height: 1.6;
@@ -242,7 +267,6 @@
     align-items: center;
     list-style: none;
     font-weight: 600;
-
 }
 
 .about .keybox2-item {
@@ -250,20 +274,38 @@
     font-weight: 500;
     line-height: 2.5;
 }
-
-.about .about-service {
-    font-size: 18px;
-    margin-bottom: 1em;
+.akeybox-item {
+    font-family: opensans;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.about-service {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
 }
 
-.about .servicebox {
+.servicebox {
     list-style: none;
 }
-
+.servicebox-item {
+    font-family: opensans;
+    font-weight: 500;
+   
+}
 
 .servicebox-item>img {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.1em;
+    height: 2.1em;
+    margin-right: 5%;
+   
 }
 
 .about .about-workflow {
