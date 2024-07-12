@@ -574,6 +574,7 @@
     }
 }
 /*mardi page end*/
+
 /*dawn page start*/
 .project-dawn {
     display: flex;
@@ -649,6 +650,7 @@
     }
 }
 /*dawn page end*/
+
 /*endeavor page start*/
 @media (min-width:350px) {
     .project-foto-endeavor {
@@ -671,6 +673,7 @@
     }
 }
 /*endeavor page end*/
+
 /*global page start*/
 @media (min-width:350px) {
     .project-foto-global {
@@ -840,6 +843,7 @@
     }
 }
 /*yuriy-kuchiev page end*/
+
 /*norwegian page start*/
 @media (min-width:350px) {
     .project-foto-norwegian {
@@ -862,6 +866,7 @@
     }
 }
 /*norwegian page end*/
+
 /*norwegian-star page start*/
 @media (min-width:350px) {
     .project-foto-norwegian-star {
@@ -884,6 +889,7 @@
     }
 }
 /*norwegian-star page end*/
+
 /*schiff2 page start*/
 @media (min-width:350px) {
     .project-foto-schiff2 {
@@ -906,6 +912,7 @@
     }
 }
 /*schiff2 page end*/
+
 /*schiff page start*/
 @media (min-width:350px) {
     .project-foto-schiff {
@@ -928,50 +935,209 @@
     }
 }
 /*schiff page end*/
+
 /*yevgeny page start*/
+.projects-yevgeny {
+    display: grid;
+}
+
+.project-yevgeny {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.project-foto-yevgeny {
+    width: 400px;
+    height: 240px;
+}
+
 @media (min-width:350px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+
     .project-foto-yevgeny {
-        width: 340px;
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .project-foto-yevgeny {
+        width: 400px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
-    .project-foto-yevgeny {
-        width: 500px;
-        height: 290px;
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width:850px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media (min-width:1000px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: repeat(2, 420px);
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:1150px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        margin-left: 8rem;
     }
 }
 
 @media (min-width:1300px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        margin-left: 2rem;
+    }
+
     .project-foto-yevgeny {
-        width: 650px;
-        height: 380px;
+        width: 380px;
+        height: 220px;
+    }
+}
+
+@media (min-width:1400px) {
+    .project-yevgeny {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        margin-left: 8rem;
+    }
+
+    .project-foto-yevgeny {
+        width: 400px;
+        height: 240px;
     }
 }
 /*yevgeny page end*/
+
 /*fedor page start*/
+.projects-fedor {
+    display: grid;
+}
+
+.project-fedor {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.project-foto-fedor {
+    width: 400px;
+    height: 240px;
+}
+
 @media (min-width:350px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+
     .project-foto-fedor {
-        width: 340px;
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .project-foto-fedor {
+        width: 400px;
         height: 200px;
     }
 }
 
 @media (min-width:768px) {
-    .project-foto-fedor {
-        width: 500px;
-        height: 290px;
+    .project-fedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width:850px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media (min-width:1000px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: repeat(2, 420px);
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width:1150px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        margin-left: 8rem;
     }
 }
 
 @media (min-width:1300px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        margin-left: 2rem;
+    }
+
     .project-foto-fedor {
-        width: 650px;
-        height: 380px;
+        width: 380px;
+        height: 220px;
+    }
+}
+
+@media (min-width:1400px) {
+    .project-fedor {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        margin-left: 8rem;
+    }
+
+    .project-foto-fedor {
+        width: 400px;
+        height: 240px;
     }
 }
 /*fedor page end*/
+
 /*stepan page start*/
 @media (min-width:350px) {
     .project-foto-stepan {

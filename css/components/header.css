@@ -8,7 +8,9 @@ header {
 .header {
     padding-top: 0;
     padding-bottom: 0;
-    font-family:oswald;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
     z-index: 100;
 }
 .header-line {
@@ -46,7 +48,7 @@ position: fixed;
 .header .main-nav>a {
     color: var(--light-grey-color);
     text-decoration: none;
-    font-weight: bolder;
+    
 }
 
 .header-title {
