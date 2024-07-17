@@ -11,6 +11,13 @@ const portfolioData = {
     },
     data:[
         {
+            img: 'dornan.jpg',
+            alt: 'Dornan data center',
+            title: 'Dornan Engineering',
+            href: '../slides/projects-slides/page-dornan/dornan.html',
+            tags: ['Data center'],
+        },
+        {
             img: 'par13.png',
             alt: 'Mercury data center',
             title: 'Mercury Engineering',

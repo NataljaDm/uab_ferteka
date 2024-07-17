@@ -61,9 +61,7 @@
     width: 100%;
     margin-bottom: 4rem;
     font-size:32px;
-    font-family: oswald;
-    font-style: italic;
-    letter-spacing: 0.02em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -74,8 +72,8 @@
     margin-bottom: 1rem;
     font-size:22px;
     text-transform: uppercase;
-    font-family:oswald;
-    letter-spacing: 0.02em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
  }
 
 .contact-foto {
@@ -84,8 +82,9 @@
 }
 
 .contact-info {
-    font-family:oswald;
-    letter-spacing: 0.02em;
+    font-family:opensans;
+   font-weight: 300;
+   font-style: normal;
     list-style: none;
     font-size: 20px;
    line-height: 2;
