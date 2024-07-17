@@ -11,7 +11,7 @@
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
-  font-family:opensans;
+  font-family: opensans;
   text-decoration: none;
   color: #000000;
   border-top: 2px solid #333;
@@ -79,7 +79,6 @@
 .btn-two:hover::before {
   left: 96px;
   width: 64px;
-
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -111,7 +110,6 @@
     transform: rotate(-360deg);
   }
 }
-
 
 /*cvet*/
 .box {
@@ -190,7 +188,7 @@
   transform: scale(0.1, 1);
 }
 
-
+/*drugaja*/
 .button-73 {
   width: 11rem;
   height: 3rem;

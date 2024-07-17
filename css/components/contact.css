@@ -6,8 +6,7 @@
     filter: grayscale(0.5) blur(5px);
 }
 
-
-.contact{
+.contact {
     display: inline-block;
     width: 100%;
     margin-bottom: 20px;
@@ -37,7 +36,7 @@
     display: inline-block;
     width: 100%;
     margin-bottom: 40px;
-    font-size:18px;
+    font-size: 18px;
     text-decoration: none;
     text-align: center;
     font-family: opensans;
@@ -45,8 +44,9 @@
 }
 
 .contact-item {
-  text-transform: uppercase;  
+    text-transform: uppercase;
 }
+
 .contact-list {
     text-decoration: none;
     list-style: none;
@@ -60,21 +60,20 @@
     display: inline-block;
     width: 100%;
     margin-bottom: 4rem;
-    font-size:32px;
+    font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     text-transform: uppercase;
 }
 
- .h4-contact {
+.h4-contact {
     display: inline-block;
     width: 100%;
     margin-bottom: 1rem;
-    font-size:22px;
+    font-size: 22px;
     text-transform: uppercase;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
- }
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .contact-foto {
     width: 500px;
@@ -82,12 +81,12 @@
 }
 
 .contact-info {
-    font-family:opensans;
-   font-weight: 300;
-   font-style: normal;
+    font-family: opensans;
+    font-weight: 300;
+    font-style: normal;
     list-style: none;
     font-size: 20px;
-   line-height: 2;
+    line-height: 2;
 }
 
 .bank {

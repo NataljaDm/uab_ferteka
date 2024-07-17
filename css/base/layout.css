@@ -49,21 +49,17 @@
     display: inline-block;
     width: 100%;
     padding: 0px 0;
-
 }
 
 .container>.row {
     display: inline-block;
-  
     margin-right: calc((100% - var(--width)) / 2);
-    
 }
 
 .container-fluid>.row {
     display: inline-block;
     width: 100%;
     margin: 20px 0;
-
 }
 
 .container-fluid>.row>.nomargin {

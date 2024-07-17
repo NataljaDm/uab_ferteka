@@ -32,15 +32,6 @@ class Gallery {
     }
   }
 
-  // isValidSelectorOldschool() {
-  //     if (typeof this.selector !== 'string' || this.selector === '') {
-  //         return false;
-  //     }
-
-  //     this.DOM = document.querySelector(this.selector);
-  //     return !!this.DOM;
-  // }
-
   isNonEmptyString(str) {
     return typeof str === "string" && str.trim() !== "";
   }
@@ -165,14 +156,7 @@ class Gallery {
       const path = this.imgFolder + item.img;
       const dataTags = item.tags.join(",").toLowerCase();
 
-      
-//HTML += `<div class="card" data-tags="${dataTags}">
-        //    <img class="image" src="${path}" alt="${item.alt}">
-         //   <a class="title" href="${item.href}">${item.title}</a>
-         //  <p class="tag">${item.tags[0]}</p>
-       // </div>`;
-
-  HTML += `<div class="card hover-text-one" data-tags="${dataTags}">
+      HTML += `<div class="card hover-text-one" data-tags="${dataTags}">
           <figure class="effect-text-three">
                 <img class="image" src="${path}" alt="${item.alt}">
                 <figcaption>
@@ -181,12 +165,6 @@ class Gallery {
                 </figcaption>
           </figure>
         </div>`;
-
-       // HTML += `<div class="card" data-tags="${dataTags}">
-       //     <img class="image" src="${path}" alt="${item.alt}">
-       //     <a class="title" href="${item.href}">${item.title}</a>
-           
-       // </div>`;
     }
 
     return HTML;
@@ -234,5 +212,3 @@ class Gallery {
 }
 
 export { Gallery };
-
-

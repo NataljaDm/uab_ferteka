@@ -8,21 +8,21 @@ header {
 .header {
     padding-top: 0;
     padding-bottom: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-style: normal;
     z-index: 100;
 }
+
 .header-line {
-background-color: #11214A;
-position: fixed;
+    background-color: #11214A;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 9%;
     z-index: 3;
 }
-
 
 .header>.row {
     margin-top: 0;
@@ -48,7 +48,6 @@ position: fixed;
 .header .main-nav>a {
     color: var(--light-grey-color);
     text-decoration: none;
-    
 }
 
 .header-title {
@@ -63,8 +62,6 @@ position: fixed;
     letter-spacing: 0.04em;
 }
 
-/* font-family: calc((100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);*/
-
 .header .header-text {
     font-family: opensans;
     font-weight: 500;
@@ -74,24 +71,6 @@ position: fixed;
     line-height: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
-}
-
-
-/*.header .ul-header {
-    margin: 50px;
-    display: block;
-    overflow: hidden;
-    height: 60px;
-    padding: 0 0 0 50px;
-}
-
-.header .li-header {
-    margin: 1px 0;
-    height: 60px;
-}
-
-.li-header a {
-    font-size: 14px;
 }
 
 .ul-header div {
@@ -118,8 +97,7 @@ position: fixed;
         margin-top: 0;
     }
 
-}*/
-
+}
 
 @media (max-width: 2600px) {
     header {
@@ -141,14 +119,6 @@ position: fixed;
     }
 }
 
-/*@media (max-width: 2600px) {
-    body {
-      
-        background-size: 90% 100%;
-        background-position: center;
-     }
-}*/
-
 @media (max-width: 560px) {
     header {
         background-image: url('../../img/100.jpg');
@@ -157,10 +127,11 @@ position: fixed;
         background-size: 100% 100%;
         background-position: center;
     }
+
     .header-title {
-        font-size: 1.5em;
+        font-size: 2rem;
         color: var(--light-grey-color);
-        font-family:opensans;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         margin-top: 1em;
         margin-bottom: 0.5em;
         font-weight: bold;

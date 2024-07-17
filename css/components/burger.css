@@ -21,19 +21,16 @@
     height: 2px;
     background-color: #f7f4f4;
     transition-duration: .25s;
-    
 }
 
 .menu-btn>span::before {
     content: '';
     top: -8px;
-    
 }
 
 .menu-btn>span::after {
     content: '';
     top: 8px;
-    
 }
 
 .menubox {
@@ -67,7 +64,6 @@
 .menu-item:hover {
     background-color: #CFD8DC;
 }
-
 
 #menu-toggle {
     opacity: 0;

@@ -46,20 +46,24 @@
 .projects-dornan {
     display: grid;
 }
+
 .project-dornan {
     display: grid;
     grid-template-columns: repeat(3, 400px);
     gap: 10px;
 }
+
 .project2-dornan {
     display: flex;
     gap: 10px;
     margin-left: 28rem;
 }
+
 .project-foto-dornan {
     width: 400px;
     height: 240px;
 }
+
 .foto-project-dornan {
     width: 200px;
     height: 350px;
@@ -71,10 +75,12 @@
         grid-template-columns: 350px;
         gap: 10px;
     }
+
     .project-foto-dornan {
         width: 300px;
         height: 180px;
     }
+
     .project2-dornan {
         display: grid;
         grid-template-columns: 350px;
@@ -89,16 +95,19 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .project2-dornan {
         display: grid;
         grid-template-columns: 250px 250px;
         gap: 10px;
         margin-left: 0;
     }
+
     .foto-project-dornan {
         width: 250px;
         height: 350px;
     }
+
     .project-foto-dornan {
         width: 400px;
         height: 240px;
@@ -108,17 +117,20 @@
 @media (min-width:768px) {
     .project-dornan {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
+
     .project-foto-dornan {
         width: 380px;
         height: 220px;
     }
+
     .project2-dornan {
         display: grid;
         gap: 10px;
     }
+
     .foto-project-dornan {
         width: 250px;
         height: 350px;
@@ -132,14 +144,17 @@
         gap: 10px;
         margin-left: 8rem;
     }
+
     .project-foto-dornan {
         width: 380px;
         height: 220px;
     }
+
     .project2-dornan {
         display: grid;
         gap: 10px;
     }
+
     .foto-project-dornan {
         width: 250px;
         height: 350px;
@@ -153,14 +168,17 @@
         gap: 10px;
         margin-left: 5rem;
     }
+
     .project-foto-dornan {
         width: 440px;
         height: 300px;
     }
+
     .project2-dornan {
         display: grid;
         gap: 10px;
     }
+
     .foto-project-dornan {
         width: 330px;
         height: 410px;
@@ -200,11 +218,12 @@
         gap: 10px;
     }
 
-    .project-foto-dornan{
+    .project-foto-dornan {
         width: 480px;
         height: 320px;
     }
 }
+
 /*dornan end*/
 
 /*mercury page start*/
@@ -641,6 +660,7 @@
         height: 240px;
     }
 }
+
 /*costa page end*/
 
 /*mardi page start*/
@@ -739,6 +759,7 @@
         height: 270px;
     }
 }
+
 /*mardi page end*/
 
 /*dawn page start*/
@@ -815,6 +836,7 @@
         height: 300px;
     }
 }
+
 /*dawn page end*/
 
 /*endeavor page start*/
@@ -838,6 +860,7 @@
         height: 380px;
     }
 }
+
 /*endeavor page end*/
 
 /*global page start*/
@@ -861,6 +884,7 @@
         height: 380px;
     }
 }
+
 /*global page end*/
 
 /*ritz-carlton page start*/
@@ -962,6 +986,7 @@
         height: 240px;
     }
 }
+
 /*ritz-carlton page end*/
 
 /*msc-grandiosa page start*/
@@ -985,6 +1010,7 @@
         height: 350px;
     }
 }
+
 /*msc-grandiosa page end*/
 
 /*yuriy-kuchiev page start*/
@@ -1008,6 +1034,7 @@
         height: 370px;
     }
 }
+
 /*yuriy-kuchiev page end*/
 
 /*norwegian page start*/
@@ -1031,6 +1058,7 @@
         height: 380px;
     }
 }
+
 /*norwegian page end*/
 
 /*norwegian-star page start*/
@@ -1054,6 +1082,7 @@
         height: 380px;
     }
 }
+
 /*norwegian-star page end*/
 
 /*schiff2 page start*/
@@ -1077,6 +1106,7 @@
         height: 380px;
     }
 }
+
 /*schiff2 page end*/
 
 /*schiff page start*/
@@ -1100,6 +1130,7 @@
         height: 380px;
     }
 }
+
 /*schiff page end*/
 
 /*yevgeny page start*/
@@ -1201,6 +1232,7 @@
         height: 240px;
     }
 }
+
 /*yevgeny page end*/
 
 /*fedor page start*/
@@ -1302,6 +1334,7 @@
         height: 240px;
     }
 }
+
 /*fedor page end*/
 
 /*stepan page start*/
@@ -1325,6 +1358,7 @@
         height: 380px;
     }
 }
+
 /*stepan page end*/
 
 .projects {
@@ -1337,5 +1371,3 @@
     grid-template-columns: repeat(3, 400px);
     gap: 10px;
 }
-
-
