@@ -21,7 +21,6 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-
 .page-about-text {
     display: inline-block;
     width: 95%;
@@ -37,6 +36,38 @@
     line-height: 1.7;
     text-indent: 3%;
 }
+
+@media (min-width:310px) {
+    .page-about-text {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:576px) {
+    .page-about-text {
+        display: inline-block;
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 1.7;
+        margin-left: 2rem;
+    }
+}
+@media (min-width:992px) {
+    .page-about-text {
+        display: inline-block;
+        width: 95%;
+        margin-left: 3rem;
+        margin-top: 30px;
+    margin-bottom: 40px;
+    }
+}
+
 
 .page-about-text-span {
     text-decoration: underline;
