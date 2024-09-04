@@ -22,20 +22,7 @@
     line-height: 1.5rem;
 }
 
-.elloop {
-    padding-left: 20rem;
-}
 
-.elconsa {
-    padding-left: 5rem;
-}
-.dornan {
-    padding-left: 20rem;
-}
-
-.dornan2 {
-    padding-left: 5rem;
-}
 
 .lightbox {
     display: none;
@@ -94,34 +81,3 @@
 }
 
 
-@media (min-width:350px) {
-    .elloop {
-        padding-left: 0;
-    }
-
-    .elconsa {
-        padding-left: 0;
-    }
-
-}
-
-@media (min-width:760px) {
-    .elloop {
-        padding-left: 5rem;
-    }
-
-    .elconsa {
-        padding-left: 3rem;
-    }
-
-}
-
-@media (min-width:1200px) {
-    .elloop {
-        padding-left: 15rem;
-    }
-
-    .elconsa {
-        padding-left: 5rem;
-    }
-}
