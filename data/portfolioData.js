@@ -12,9 +12,9 @@ const portfolioData = {
   data: [
     {
       img: "dornan.jpg",
-      alt: "Solar Park Klaipeda",
-      title: "Solar park Klaipeda",
-      href: "../slides/projects-slides/page-dornan/dornan.html",
+      alt: "Solar Park",
+      title: "Solar park",
+      href: "../slides/projects-slides/page-energy/energy.html",
       tags: ["Energy"],
     },
     {
