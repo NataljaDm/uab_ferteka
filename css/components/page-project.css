@@ -41,6 +41,145 @@
     font-weight: bold;
 }
 
+/*energy page start*/
+
+.projects-mercury {
+    display: grid;
+}
+
+.project-mercury {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px;
+}
+
+.project2-mercury {
+    display: flex;
+    gap: 10px;
+    margin-left: 28rem;
+}
+
+.project-foto-mercury {
+    width: 400px;
+    height: 240px;
+}
+
+.foto-project-mercury {
+    width: 200px;
+    height: 350px;
+}
+
+@media (min-width:350px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+
+    .project-foto-mercury {
+        width: 300px;
+        height: 180px;
+    }
+
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:576px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .project-foto-mercury {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 10px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:992px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        gap: 10px;
+    }
+}
+
+@media (min-width:1150px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        gap: 10px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        gap: 10px;
+    }
+
+    .project-foto-mercury {
+        width: 380px;
+        height: 220px;
+    }
+
+    .project2-mercury {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 10px;
+        margin-left: 20rem;
+    }
+
+    .foto-project-mercury {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (min-width:1400px) {
+    .project-mercury {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 10px;
+    }
+
+    .project-foto-mercury {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+/*energy end*/
+
 /*dornan page start*/
 
 .projects-dornan {
