@@ -21,14 +21,11 @@
     list-style-type: none;
     line-height: 1.5rem;
 }
+ .iso-foto {
+    gap: 2px;
+    margin: 0;
+ }
 
-.elloop {
-    padding-left: 20rem;
-}
-
-.elconsa {
-    padding-left: 5rem;
-}
 
 .lightbox {
     display: none;
