@@ -12,10 +12,10 @@ const portfolioData = {
   data: [
     {
       img: "energy.jpg",
-      alt: "Energy",
-      title: "Energy unlimited",
+      alt: "Renewable energy",
+      title: "Solar park",
       href: "../slides/projects-slides/page-energy/energy.html",
-      tags: ["Energy"],
+      tags: ["Renewable energy"],
     },
     {
       img: "dornan.jpg",
