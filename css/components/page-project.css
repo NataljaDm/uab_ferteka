@@ -53,9 +53,20 @@
     gap: 10px;
 }
 
+.project2-energy {
+    display: flex;
+    gap: 10px;
+    margin-left: 28rem;
+}
+
 .project-foto-energy {
     width: 400px;
     height: 240px;
+}
+
+.foto-project-energy {
+    width: 200px;
+    height: 350px;
 }
 
 @media (min-width:350px) {
@@ -69,6 +80,13 @@
         width: 300px;
         height: 180px;
     }
+
+    .project2-energy {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+        margin-left: 0;
+    }
 }
 
 @media (min-width:576px) {
@@ -76,6 +94,18 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
+    }
+
+    .project2-energy {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .foto-project-energy {
+        width: 250px;
+        height: 350px;
     }
 
     .project-foto-energy {
@@ -87,16 +117,47 @@
 @media (min-width:768px) {
     .project-energy {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+
+    .project-foto-energy {
+        width: 380px;
+        height: 220px;
+    }
+
+    .project2-energy {
+        display: grid;
+        gap: 10px;
+    }
+
+    .foto-project-energy {
+        width: 250px;
+        height: 350px;
     }
 }
 
 @media (min-width:992px) {
     .project-energy {
         display: grid;
-        grid-template-columns: repeat(2, 400px);
+        grid-template-columns: repeat(2, 350px);
         gap: 10px;
+        margin-left: 8rem;
+    }
+
+    .project-foto-energy {
+        width: 380px;
+        height: 220px;
+    }
+
+    .project2-energy {
+        display: grid;
+        gap: 10px;
+    }
+
+    .foto-project-energy {
+        width: 250px;
+        height: 350px;
     }
 }
 
@@ -105,6 +166,22 @@
         display: grid;
         grid-template-columns: repeat(2, 400px);
         gap: 10px;
+        margin-left: 5rem;
+    }
+
+    .project-foto-energy {
+        width: 440px;
+        height: 300px;
+    }
+
+    .project2-energy {
+        display: grid;
+        gap: 10px;
+    }
+
+    .foto-project-energy {
+        width: 330px;
+        height: 410px;
     }
 }
 
@@ -113,11 +190,24 @@
         display: grid;
         grid-template-columns: repeat(3, 380px);
         gap: 10px;
+        margin-left: 3rem;
     }
 
     .project-foto-energy {
-        width: 380px;
-        height: 220px;
+        width: 480px;
+        height: 320px;
+    }
+
+    .project2-energy {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 10px;
+        margin-left: 22rem;
+    }
+
+    .foto-project-energy {
+        width: 350px;
+        height: 450px;
     }
 }
 
@@ -129,8 +219,8 @@
     }
 
     .project-foto-energy {
-        width: 400px;
-        height: 240px;
+        width: 480px;
+        height: 320px;
     }
 }
 
