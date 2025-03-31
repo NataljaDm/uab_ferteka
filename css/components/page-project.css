@@ -53,17 +53,6 @@
     gap: 10px;
 }
 
-.project2-energy {
-    display: flex;
-    gap: 10px;
-    margin-left: 28rem;
-}
-
-.project-foto-energy {
-    width: 400px;
-    height: 240px;
-}
-
 .foto-project-energy {
     width: 200px;
     height: 350px;
@@ -75,18 +64,6 @@
         grid-template-columns: 350px;
         gap: 10px;
     }
-
-    .project-foto-energy {
-        width: 300px;
-        height: 180px;
-    }
-
-    .project2-energy {
-        display: grid;
-        grid-template-columns: 350px;
-        gap: 10px;
-        margin-left: 0;
-    }
 }
 
 @media (min-width:576px) {
@@ -96,21 +73,9 @@
         gap: 10px;
     }
 
-    .project2-energy {
-        display: grid;
-        grid-template-columns: 250px 250px;
-        gap: 10px;
-        margin-left: 0;
-    }
-
     .foto-project-energy {
         width: 250px;
         height: 350px;
-    }
-
-    .project-foto-energy {
-        width: 400px;
-        height: 240px;
     }
 }
 
@@ -118,16 +83,6 @@
     .project-energy {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-
-    .project-foto-energy {
-        width: 380px;
-        height: 220px;
-    }
-
-    .project2-energy {
-        display: grid;
         gap: 10px;
     }
 
@@ -145,16 +100,6 @@
         margin-left: 8rem;
     }
 
-    .project-foto-energy {
-        width: 380px;
-        height: 220px;
-    }
-
-    .project2-energy {
-        display: grid;
-        gap: 10px;
-    }
-
     .foto-project-energy {
         width: 250px;
         height: 350px;
@@ -167,16 +112,6 @@
         grid-template-columns: repeat(2, 400px);
         gap: 10px;
         margin-left: 5rem;
-    }
-
-    .project-foto-energy {
-        width: 440px;
-        height: 300px;
-    }
-
-    .project2-energy {
-        display: grid;
-        gap: 10px;
     }
 
     .foto-project-energy {
@@ -193,18 +128,6 @@
         margin-left: 3rem;
     }
 
-    .project-foto-energy {
-        width: 480px;
-        height: 320px;
-    }
-
-    .project2-energy {
-        display: grid;
-        grid-template-columns: 250px 250px;
-        gap: 10px;
-        margin-left: 22rem;
-    }
-
     .foto-project-energy {
         width: 350px;
         height: 450px;
@@ -216,11 +139,6 @@
         display: grid;
         grid-template-columns: repeat(3, 400px);
         gap: 10px;
-    }
-
-    .project-foto-energy {
-        width: 480px;
-        height: 320px;
     }
 }
 
