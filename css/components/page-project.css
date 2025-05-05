@@ -64,6 +64,10 @@
         grid-template-columns: 350px;
         gap: 10px;
     }
+    .foto-project-mercury2 {
+        width: 200px;
+        height: 350px;
+    }
 }
 
 @media (min-width:576px) {
@@ -134,13 +138,7 @@
     }
 }
 
-@media (min-width:1400px) {
-    .project-mercury2 {
-        display: grid;
-        grid-template-columns: repeat(3, 400px);
-        gap: 10px;
-    }
-}
+
 
 /*mercury2 end*/
 
