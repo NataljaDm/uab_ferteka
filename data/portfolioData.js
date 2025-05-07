@@ -10,7 +10,7 @@ const portfolioData = {
     max: 6,
   },
   data: [{
-    img: "fra82.jpg",
+    img: "ams11.jpg",
     alt: "Mercury3 data center",
     title: "Mercury Engineering",
     href: "../slides/projects-slides/page-mercury3/mercury3.html",
