@@ -2,14 +2,14 @@
   "name": "uab_ferteka",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "dead-server --port=4207 --host=localhost",
     "test": "jest --passWithNoTests",
     "test:all": "jest --watchAll --passWithNoTests --coverage",
-    "test:coverage": "jest --coverage",
-    "start": "nodemon mail.js"
+    "test:coverage": "jest --coverage"
+    
   },
   "keywords": [
     "HTML",
