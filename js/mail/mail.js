@@ -43,7 +43,7 @@ async function sendFormData(form, formBtn, formSendResult, formDataObject) {
         });
 
         if (response.ok) {
-            formSendResult.textContent = 'Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.';
+            formSendResult.textContent = 'Thank you for your message!';
             form.reset();
         } else if (response.status === 422) {
             const errors = await response.json();
@@ -55,11 +55,11 @@ async function sendFormData(form, formBtn, formSendResult, formDataObject) {
 
     } catch (error) {
         console.error(error.message);
-        formSendResult.textContent = 'Письмо не отправлено! Попробуйте позже.';
+        formSendResult.textContent = 'Letter not sent! Try again later.';
         formSendResult.style.color = 'red';
 
     } finally {
-        formBtn.textContent = 'Отправить';
+        formBtn.textContent = 'Send';
         formBtn.disabled = false;
     }
 }
@@ -75,32 +75,32 @@ function validateForm(formData) {
   const errors = [];
 
   if (!name) {
-    errors.push({ field: "name", message: "Пожалуйста, введите ваше ФИО." });
+    errors.push({ field: "name", message: "Please enter your name" });
   } else if (name.length < 5 || name.length > 20) {
     errors.push({
       field: "name",
       message:
-        "Пожалуйста, введите корректные данные. Пример: Быков Иван Петрович",
+        "Please enter correct name",
     });
   }
 
   if (!phone) {
     errors.push({
       field: "phone",
-      message: "Пожалуйста, введите номер телефона.",
+      message: "Please enter yuor phone number",
     });
   } else if (!phoneRegex.test(phone)) {
     errors.push({
       field: "phone",
       message:
-        "Пожалуйста, введите корректный номер телефона. Пример: +375257851204",
+        "Please enter correct phone PVZ:+(code)(number)",
     });
   }
 
   if (!email) {
     errors.push({
       field: "email",
-      message: "Пожалуйста, введите адрес электронной почты.",
+      message: "Please enter your email",
     });
   } else if (
     !emailRegex.test(email) ||
@@ -110,19 +110,19 @@ function validateForm(formData) {
     errors.push({
       field: "email",
       message:
-        "Пожалуйста, введите корректный адрес электронной почты. Пример: frontend@gmail.com",
+        "Please enter correct email PVZ: email@gmail.com",
     });
   }
 
   if (!message) {
     errors.push({
       field: "message",
-      message: "Пожалуйста, введите сообщение.",
+      message: "Please enter message",
     });
   } else if (message.length < 20 || message.length > 400) {
     errors.push({
       field: "message",
-      message: "В сообщении должно быть мин. 20 и не более 400 символов.",
+      message: "Please enter correct message",
     });
   }
 

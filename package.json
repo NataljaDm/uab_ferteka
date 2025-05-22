@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  
   "scripts": {
     "dev": "dead-server --port=4207 --host=localhost",
     "test": "jest --passWithNoTests",
