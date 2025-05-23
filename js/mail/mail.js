@@ -113,7 +113,6 @@ function validateForm(formData) {
         "Please enter correct email PVZ: email@gmail.com",
     });
   }
-
   if (!message) {
     errors.push({
       field: "message",
