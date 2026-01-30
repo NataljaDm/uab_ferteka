@@ -41,6 +41,114 @@
     font-weight: bold;
 }
 
+/*dornan2 page start*/
+
+.projects-dornan2 {
+    display: grid;
+}
+
+.project-dornan2 {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px;
+}
+
+.foto-project-dornan2 {
+    width: 200px;
+    height: 350px;
+}
+
+@media (min-width:350px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: 350px;
+        gap: 10px;
+    }
+    .foto-project-dornan2 {
+        width: 200px;
+        height: 350px;
+    }
+}
+
+@media (min-width:576px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .foto-project-dornan2 {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (min-width:768px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .foto-project-dornan2 {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (min-width:992px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        gap: 10px;
+        margin-left: 8rem;
+    }
+
+    .foto-project-dornan2 {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (min-width:1150px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        gap: 10px;
+        margin-left: 5rem;
+    }
+
+    .foto-project-dornan2 {
+        width: 330px;
+        height: 410px;
+    }
+}
+
+@media (min-width:1300px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        gap: 10px;
+        margin-left: 3rem;
+    }
+
+    .foto-project-dornan2 {
+        width: 350px;
+        height: 450px;
+    }
+}
+@media (min-width:1400px) {
+    .project-dornan2 {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 10px;
+    }
+
+}
+
+/*dornan2 end*/
+
+
 /*mercury3 page start*/
 
 .projects-mercury3 {
@@ -137,8 +245,6 @@
         height: 450px;
     }
 }
-
-
 
 /*mercury3 end*/
 
@@ -238,8 +344,6 @@
         height: 450px;
     }
 }
-
-
 
 /*mercury2 end*/
 
